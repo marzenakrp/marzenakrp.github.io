@@ -72,7 +72,7 @@ author:
     #  icon: "fab fa-fw fa-github"
     #  url: "https://github.com/"
     - label: "Google Scholar"
-      icon: "ai ai-google-scholar ai"
+      icon: "ai ai-google-scholar"
       url: "https://scholar.google.com.au/citations?user=-sWY5igAAAAJ&hl=en"
 
 #footer:
