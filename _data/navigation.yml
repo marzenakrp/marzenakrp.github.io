@@ -3,6 +3,8 @@ main:
     url: /
   - title: "Publications"
     url: /publications/
+  - title: "CV"
+    url: /assets/marzena_karpinska.pdf
   - title: "Blog"
     url: /blog/
   - title: "Contact"

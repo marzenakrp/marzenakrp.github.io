@@ -1,7 +1,7 @@
 ---
 title: "Blog"
 permalink: /blog/
-layout: tags
+#layout: tags
 author_profile: true
 ---
 

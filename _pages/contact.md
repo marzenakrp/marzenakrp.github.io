@@ -1,6 +1,6 @@
 ---
 title: "Contact"
 permalink: mailto:mkarpinska@umass.edu
-layout: posts
+#layout: posts
 author_profile: true
 ---
