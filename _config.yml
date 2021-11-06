@@ -88,7 +88,7 @@ author:
 #      url: "https://instagram.com/"
 
 defaults:
-    # _pages
+  # _pages
   - scope:
       path: "_pages"
       type: pages
