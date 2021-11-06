@@ -58,7 +58,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : ""
+  name   : "Marzena Karpinska"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : ""
   links:
