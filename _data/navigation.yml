@@ -1,8 +1,8 @@
 main:
   - title: "Home"
     url: /
-  - title: "Publications"
-    url: /publications/
+  # - title: "Publications"
+  #   url: /publications/
   - title: "CV"
     url: /assets/marzena_karpinska.pdf
   - title: "Blog"
