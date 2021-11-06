@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Marzena Karpinska"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Linguist with an interest in NLP, sociolinguistics, and language acquisition."
+  bio    : ""
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
