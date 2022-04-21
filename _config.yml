@@ -70,9 +70,9 @@ author:
     #  icon: "fab fa-fw fa-github"
     #  url: "https://github.com/"
     - label: "Google Scholar"
-      icon: "google-scholar"
-      icon_pack: "ai"
-      #icon: "ai ai-google-scholar-square"
+      #icon: "google-scholar"
+      #icon_pack: "ai"
+      icon: "ai ai-google-scholar"
       url: "https://scholar.google.com.au/citations?user=-sWY5igAAAAJ&hl=en"
 
 #footer:
