@@ -72,7 +72,7 @@ author:
     - label: "Google Scholar"
       #icon: "google-scholar"
       #icon_pack: "ai"
-      icon: "ai ai-google-scholar"
+      icon: "ai-google-scholar"
       url: "https://scholar.google.com.au/citations?user=-sWY5igAAAAJ&hl=en"
 
 #footer:
