@@ -35,6 +35,5 @@ author_profile: true
 	<br>
 	<i>Proceedings of the The International Congress of Phonetic Sciences.</i> Glasgow,
 	Scotland: ICPhS. <a hrew ="https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2015/Papers/ICPHS0264.pdf"> [PDF] </a>
-
-</li>
+	</li>
 </ul>
