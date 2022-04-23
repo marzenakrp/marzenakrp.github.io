@@ -6,8 +6,6 @@ author_profile: true
 ---
 
 
-<i>Coming soon...</i>
-
 <ul>
 	<li><b>Marzena Karpinska</b>, Nader Akoury, and Mohit Iyyer (2021). "The Perils of Using Mechanical Turk to Evaluate Open-Ended Text Generation"
 	<br>
