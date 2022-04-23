@@ -27,7 +27,7 @@ author_profile: true
 	<li>
 	<b>Marzena Karpinska</b>, Bofang Li, Anna Rogers, and Aleksandr Drozd (2018). “Subcharacter Information in Japanese Embeddings: When Is It Worth It?” 
 	<br>
-	Proceedings of the Workshop on the Relevance of Linguistic Structure in Neural Architectures for NLP. Melbourne, Australia: ACL, pp. 28–37. <a hrew="http://aclweb.org/anthology/W18-2905"> [PDF] </a>
+	<i>Proceedings of the Workshop on the Relevance of Linguistic Structure in Neural Architectures for NLP.</i> Melbourne, Australia: ACL, pp. 28–37. <a hrew="http://aclweb.org/anthology/W18-2905"> [PDF] </a>
 	</li>	
 	<li>
 	<b>Marzena Karpinska</b>, Shodai Uchida, and Izabelle Grenon (2015). “Vowel perception by listeners from
