@@ -20,7 +20,7 @@ author_profile: true
 	<li><b>Marzena Karpinska</b>, Paula Kurzawska, and Katarzyna Rozanska (2019). “Digital Lingua Franca or a
 	Culture-Specific Product Leading to Misunderstandings?” 
 	<br>
-	Emoticons, Kaomoji, and Emoji: The Transformation of Communication in the Digital Age (Routledge Research in Language and Communication). Ed. by E. GiannoulisLukas and R.A. Wilde. Routledge. Chap. 4 <a hrew="https://www.routledge.com/Emoticons-Kaomoji-and-Emoji-The-Transformation-of-Communication-in-the/Giannoulis-Wilde/p/book/9780367785215"> [BOOK] </a>
+	<i>Emoticons, Kaomoji, and Emoji: The Transformation of Communication in the Digital Age (Routledge Research in Language and Communication).</i> Ed. by E. GiannoulisLukas and R.A. Wilde. Routledge. Chap. 4 <a hrew="https://www.routledge.com/Emoticons-Kaomoji-and-Emoji-The-Transformation-of-Communication-in-the/Giannoulis-Wilde/p/book/9780367785215"> [BOOK] </a>
 	</li>
 	<li>  Kimie Yamamura, Ryo Gakutani, <b> Marzena Karpinska </b>, Tetsuro Tanojiri, and Tom Gally (2019). "The Discourse of <i>Kyōyō</i> and English Education in Japan" <i> Komaba Journal of English Educatio. </i> Department of English Language, The University of Tokyo, Komaba. <a hrew="https://repository.dl.itc.u-tokyo.ac.jp/record/2000978/files/KJEE10_049-065.pdf"> [PDF] </a>
 	<br>
