@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-
+<b>Publications in English:</b>
 
 <ul>
 	<li><b>Marzena Karpinska</b>, Nader Akoury, and Mohit Iyyer (2021). "The Perils of Using Mechanical Turk to Evaluate Open-Ended Text Generation"
@@ -35,5 +35,18 @@ author_profile: true
 	<br>
 	<i>Proceedings of the The International Congress of Phonetic Sciences.</i> Glasgow,
 	Scotland: ICPhS. <a href ="https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2015/Papers/ICPHS0264.pdf"> [PDF] </a>
+	</li>
+</ul>
+
+
+<b>Publications in Japanese:</b>
+
+<ul>
+	<li>
+		Kawasaki Yoshifumi, Maëlys Salingre, <b>Marzena Karpinska</b>, Takamura Hiroya, Nagata Ryo (2022). ”Bunseki Hyougen o Mochiita Romansu-go Dougengo Doushi no Imi-henka no Bunseki" (Analysis of Semantic Change in Romance Cognate Verbs Using Word Embeddings)
+		<br>
+		<i>Proceedings of the Annual Conference of the Association for Natural Language Processing.</i> Hamamatsu, Japan. <a href="https://drive.google.com/drive/folders/1q5qIW421HIvtxlxAtz6vV_ZZEqZ2TGqk?usp=sharing"> [PDF] </a>
+		<br>
+		<i>(Special committee award for novelty.)</i>
 	</li>
 </ul>
