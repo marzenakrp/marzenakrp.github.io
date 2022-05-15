@@ -47,6 +47,6 @@ author_profile: true
 		<br>
 		<i>Proceedings of the Annual Conference of the Association for Natural Language Processing.</i> Hamamatsu, Japan. <a href="https://drive.google.com/drive/folders/1q5qIW421HIvtxlxAtz6vV_ZZEqZ2TGqk?usp=sharing"> [PDF] </a>
 		<br>
-		<i>(Special committee award for novelty.)</i>
+		(Received committee award for novelty.)
 	</li>
 </ul>
