@@ -8,6 +8,10 @@ author_profile: true
 <b>In English:</b>
 
 <ul>
+	<li>Yoshifumi Kawasaki, Maëlys Salingre, <b>Marzena Karpinska</b>, Hiroya Takamura, and Ryo Nagata (2022). "Revisiting Statistical Laws of Semantic Shift in Romance Cognates"
+	<br>
+	<i>The 29th International Conference on Computational Linguistics</i> (to appear)
+	</li>
 	<li><b>Marzena Karpinska</b>, Nader Akoury, and Mohit Iyyer (2021). "The Perils of Using Mechanical Turk to Evaluate Open-Ended Text Generation"
 	<br>
 	<i>Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing</i>
