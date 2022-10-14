@@ -8,6 +8,11 @@ author_profile: true
 <b>In English:</b>
 
 <ul>
+	<li><b>Marzena Karpinska</b>, Nishant Raj, Katherine Thai, Yixiao Song, Ankita Gupta and Mohit Iyyer
+ 	(2022). "DEMETR: Diagnosing Evaluation Metrics for Translation"
+	<br>
+	<i>Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing</i> -- To appear.
+	</li>
 	<li>Katherine Thai, <b>Marzena Karpinska</b>, Kalpesh Krishna, Moira Inghilleri, John Wieting and Mohit Iyyer (2022).
 	"Exploring Document-Level Literary Machine Translation with Parallel Paragraphs from World Literature"
 	<br>
