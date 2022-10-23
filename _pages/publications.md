@@ -18,8 +18,8 @@ author_profile: true
 	<br>
 	<i>Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing</i> -- To appear.
 	</li>
-	<li>Ankita Gupta, <b>Marzena Karpinska</b>, Wenlong Zhao, Kalpesh Krishna, Jack Merullo, Luke Yeh, Mohit Iyyer and Brendan O'Connor (2022). "ezCoref: Towards Unifying Annotation Guidelines for Coreference Resolution" <a href="https://arxiv.org/abs/2210.07188"> [PDF] </a>
-	</li>
+	<!-- <li>Ankita Gupta, <b>Marzena Karpinska</b>, Wenlong Zhao, Kalpesh Krishna, Jack Merullo, Luke Yeh, Mohit Iyyer and Brendan O'Connor (2022). "ezCoref: Towards Unifying Annotation Guidelines for Coreference Resolution" <a href="https://arxiv.org/abs/2210.07188"> [PDF] </a>
+	</li> -->
 	<li>Yoshifumi Kawasaki, Maëlys Salingre, <b>Marzena Karpinska</b>, Hiroya Takamura, and Ryo Nagata (2022). "Revisiting Statistical Laws of Semantic Shift in Romance Cognates"
 	<br>
 	<i>The 29th International Conference on Computational Linguistics</i>
