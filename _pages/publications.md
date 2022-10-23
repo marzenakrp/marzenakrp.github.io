@@ -13,7 +13,7 @@ author_profile: true
 	<br>
 	<i>Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing</i> -- To appear.
 	</li>
-	<li>Katherine Thai, <b>Marzena Karpinska</b>, Kalpesh Krishna, Moira Inghilleri, John Wieting and Mohit Iyyer (2022).
+	<li>Katherine Thai*, <b>Marzena Karpinska*</b>, Kalpesh Krishna, Moira Inghilleri, John Wieting and Mohit Iyyer (2022).
 	"Exploring Document-Level Literary Machine Translation with Parallel Paragraphs from World Literature"
 	<br>
 	<i>Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing</i> -- To appear.
