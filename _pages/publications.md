@@ -31,6 +31,7 @@ author_profile: true
 	<br>
 	<i>Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing</i>
 	<a href="https://aclanthology.org/2022.emnlp-main.672.pdf"> [PDF] </a>
+	<i>* equal contributions</i>
 	</li>
 	<li>Ankita Gupta, <b>Marzena Karpinska</b>, Wenlong Zhao, Kalpesh Krishna, Jack Merullo, Luke Yeh, Mohit Iyyer and Brendan O'Connor (2022). "ezCoref: Towards Unifying Annotation Guidelines for Coreference Resolution" 
 	<br>
