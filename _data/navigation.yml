@@ -5,7 +5,7 @@ main:
     url: /publications/
   - title: "CV"
     url: /assets/marzena_karpinska.pdf
-  - title: "Blog"
-    url: /blog/
+  # - title: "Blog"
+  #   url: /blog/
   - title: "Contact"
     url: mailto:mkarpinska@umass.edu
