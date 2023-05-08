@@ -78,9 +78,9 @@ author_profile: true
 
 <ul>
 	<li>
-		Kawasaki Yoshifumi, Maëlys Salingre, <b>Marzena Karpinska</b>, Takamura Hiroya, Nagata Ryo (2022). ”Bunseki Hyougen o Mochiita Romansu-go Dougengo Doushi no Imi-henka no Bunseki" (Analysis of Semantic Change in Romance Cognate Verbs Using Word Embeddings)
+		Kawasaki Yoshifumi, Maëlys Salingre, <b>Marzena Karpinska</b>, Takamura Hiroya, Nagata Ryo (2022). 分散表現を用いたロマンス語同源語動詞の意味変化の分析 (Analysis of Semantic Shift in Romance Cognate Verbs Using Word Embeddings)
 		<br>
 		<i>Proceedings of the 28th Annual Conference of the Association for Natural Language Processing.</i> Hamamatsu, Japan. <a href="https://drive.google.com/drive/folders/1q5qIW421HIvtxlxAtz6vV_ZZEqZ2TGqk?usp=sharing"> [PDF] </a>
-		(received committee award for novelty)
+		(committee award for novelty)
 	</li>
 </ul>
