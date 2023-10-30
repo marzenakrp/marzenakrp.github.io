@@ -11,13 +11,13 @@ author_profile: true
 	<li> <b>Marzena Karpinska</b> and Mohit Iyyer
  	(2023). "Large language models effectively leverage document-level context for literary translation, but critical errors persist"
 	<br>
-	<i>Preprint</i>
+	<i>To appear at WMT 2023</i>
 	<a href="https://arxiv.org/abs/2304.03245"> [PDF] </a>
 	</li>
 	<li>Kalpesh Krishna, Yixiao Song, <b>Marzena Karpinska</b>, John Wieting, Mohit Iyyer
  	(2023). "Paraphrasing evades detectors of AI-generated text, but retrieval is an effective defense"
 	<br>
-	<i>Preprint</i>
+	<i>To appear at NeurIPS 2023</i>
 	<a href="https://arxiv.org/abs/2303.13408"> [PDF] </a>
 	</li>
 	<li><b>Marzena Karpinska</b>, Nishant Raj, Katherine Thai, Yixiao Song, Ankita Gupta and Mohit Iyyer
