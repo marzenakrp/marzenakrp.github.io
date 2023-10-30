@@ -20,6 +20,12 @@ author_profile: true
 	<i>To appear at NeurIPS 2023</i>
 	<a href="https://arxiv.org/abs/2303.13408"> [PDF] </a>
 	</li>
+	<li>Anna Rogers, <b>Marzena Karpinska</b>, Jordan Boyd-Graber, Naoaki Okazaki
+ 	(2023). "Program Chairs’ Report on Peer Review at ACL 2023"
+	<br>
+	<i>Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers),</i> xl–lxxv.
+	<a href="https://aclanthology.org/2023.acl-long.911/"> [PDF] </a>
+	</li>
 	<li><b>Marzena Karpinska</b>, Nishant Raj, Katherine Thai, Yixiao Song, Ankita Gupta and Mohit Iyyer
  	(2022). "DEMETR: Diagnosing Evaluation Metrics for Translation"
 	<br>
@@ -35,7 +41,7 @@ author_profile: true
 	</li>
 	<li>Ankita Gupta, <b>Marzena Karpinska</b>, Wenlong Zhao, Kalpesh Krishna, Jack Merullo, Luke Yeh, Mohit Iyyer and Brendan O'Connor (2022). "ezCoref: Towards Unifying Annotation Guidelines for Coreference Resolution" 
 	<br>
-	<i>to appear at EACL (findings)</i>
+	<i>Findings of the Association for Computational Linguistics: EACL 2023</i>
 	<a href="https://arxiv.org/abs/2210.07188"> [PDF] </a>
 	</li> 
 	<li>Yoshifumi Kawasaki, Maëlys Salingre, <b>Marzena Karpinska</b>, Hiroya Takamura, and Ryo Nagata (2022). "Revisiting Statistical Laws of Semantic Shift in Romance Cognates"
