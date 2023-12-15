@@ -11,8 +11,8 @@ author_profile: true
 	<li> <b>Marzena Karpinska</b> and Mohit Iyyer
  	(2023). "Large language models effectively leverage document-level context for literary translation, but critical errors persist"
 	<br>
-	<i>Accepted to WMT 2023</i>
-	<a href="https://arxiv.org/abs/2304.03245"> [PDF] </a>
+	<i>Proceedings of the Eighth Conference on Machine Translation</i>
+	<a href="https://aclanthology.org/2023.wmt-1.41/"> [PDF] </a>
 	</li>
 	<li>Kalpesh Krishna, Yixiao Song, <b>Marzena Karpinska</b>, John Wieting, Mohit Iyyer
  	(2023). "Paraphrasing evades detectors of AI-generated text, but retrieval is an effective defense"
