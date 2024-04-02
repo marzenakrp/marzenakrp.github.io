@@ -8,6 +8,18 @@ author_profile: true
 <b>In English:</b>
 
 <ul>
+	<li> Yekyung Kim, Yapei Chang, <b>Marzena Karpinska</b>, Aparna Garimella, Varun Manjunatha, Kyle Lo, Tanya Goyal, Mohit Iyyer
+ 	(2024). "FABLES: Evaluating faithfulness and content selection in book-length summarization"
+	<br>
+	<i>preprint</i>
+	<a href="https://arxiv.org/abs/2404.01261"> [PDF] </a>
+	</li>
+	<li> Taishi Nakamura, Mayank Mishra, Simone Tedeschi, Yekun Chai, Jason T Stillerman, Felix Friedrich, Prateek Yadav, Tanmay Laud, Vu Minh Chien, Terry Yue Zhuo, Diganta Misra, Ben Bogin, Xuan-Son Vu, <b>Marzena Karpinska</b>,..., Sampo Pyysalo
+ 	(2024). "Aurora-M: The First Open Source Multilingual Language Model Red-teamed according to the U.S. Executive Order"
+	<br>
+	<i>preprint</i>
+	<a href="https://arxiv.org/abs/2404.00399"> [PDF] </a>
+	</li>
 	<li> <b>Marzena Karpinska</b> and Mohit Iyyer
  	(2023). "Large language models effectively leverage document-level context for literary translation, but critical errors persist"
 	<br>
