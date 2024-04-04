@@ -1,7 +1,7 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://marzenakrp.github.io/'
 languageCode = 'en-us'
 title = 'Personal Website'
-theme = "ananke"
+theme = "m10c"
 
 
 
