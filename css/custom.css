@@ -1,3 +1,49 @@
 .app-header-menu-item {
     font-size: 22px; 
 }
+
+.news-box {
+    background-color: #353b43; /* Dark grey background #353b43 #252a31*/
+    border: 1px solid #496053; /* Darker border for contrast */
+    color: #b4bec9; /* Moderately light text color for better readability */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    height: 200px; /* Fixed height to trigger scrollbar */
+    overflow-y: auto; /* Enables vertical scrolling */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.news-box h3 {
+    color: #8fa5b0; /* Slightly darker shade for heading for contrast */
+    margin-bottom: 5px; /* Reduced bottom margin */
+    margin-top: -10px; /* Optional: Adjusts top margin to push heading higher */
+}
+
+.news-box ul li::before {
+    content: '•'; /* The dot (or bullet) character */
+    color: #b4bec9; /* Moderately light color for the dot for better visibility */
+    position: absolute; /* Positions the pseudo-element relative to its parent li */
+    left: 0; /* Aligns the dot to the left */
+    top: 0; /* Aligns the dot to the top, adjust as needed */
+    font-size: 1em; /* Adjust the size of the dot as needed */
+}
+
+.news-box ul li a {
+    color: #78e0a5; /* Adjusted to greenish color for links */
+    text-decoration: none; /* Removes underline */
+    transition: color 0.3s ease; /* Smooth transition for color changes */
+}
+
+.news-box ul li a:hover {
+    color: #dbf7e7; /* A lighter, more vibrant green for hover effect */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .news-box {
+        padding: 15px;
+        border-radius: 5px; /* Slightly less rounded on smaller screens */
+    }
+}
