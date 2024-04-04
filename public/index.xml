@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Marzena Karpinska</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in About on Marzena Karpinska</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/</guid>
+      <description>Total: 17&#xA;In English（英語） Yekyung Kim, Yapei Chang, Marzena Karpinska , Aparna Garimella, Varun Manjunatha, Kyle Lo, Tanya Goyal, Mohit Iyyer (2024). &amp;ldquo;FABLES: Evaluating faithfulness and content selection in book-length summarization&amp;rdquo;&#xA;preprint [PDF]&#xA;Taishi Nakamura, Mayank Mishra, Simone Tedeschi, Yekun Chai, Jason T Stillerman, Felix Friedrich, Prateek Yadav, Tanmay Laud, Vu Minh Chien, Terry Yue Zhuo, Diganta Misra, Ben Bogin, Xuan-Son Vu, Marzena Karpinska , &amp;hellip;, Sampo Pyysalo (2024). &amp;ldquo;Aurora-M: The First Open Source Multilingual Language Model Red-teamed according to the U.</description>
+    </item>
+  </channel>
+</rss>
