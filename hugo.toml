@@ -1,4 +1,4 @@
-baseURL = 'http://marzenakrp.github.io/'
+baseURL = "https://marzenakrp.github.io/"
 languageCode = 'en-us'
 title = 'Marzena Karpinska'
 theme = "m10c"
