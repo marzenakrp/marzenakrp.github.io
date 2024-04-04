@@ -7,7 +7,7 @@ theme = "m10c"
   author = "Marzena Karpinska"
   description = "Postdoc at UMass Amherst"
   avatar = "/images/bio-photo.jpg"
-  menu_item_separator = " - "
+  menu_item_separator = " / "
 
   # Define social links
   [[params.social]]
