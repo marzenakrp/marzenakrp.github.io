@@ -7,4 +7,23 @@
         {{ .Inner }}
     </div>
 </div>
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.abstract-toggle').forEach(function(button) {
+                button.addEventListener('click', function() {
+                    var abstractContent = this.previousElementSibling; // Assumes abstract content is directly before the button
+                    // Toggle the visibility class
+                    abstractContent.classList.toggle('abstract-visible');
 
+                    // Update the button text based on the visibility of the abstract
+                    this.textContent = abstractContent.classList.contains('abstract-visible') ? 'Hide Abstract' : 'Abstract';
+
+                    // blur the button to remove focus
+                    this.blur();
+                });
+            });
+        });
+
+
+    </script>
+    

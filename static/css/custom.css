@@ -50,6 +50,45 @@
 
 
 
+/* abstract toogle */
+.abstract-content {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #262927; /* Light grey background for contrast */
+    border-radius: 5px; /* Soften edges */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    display: none; /* Ensures abstracts are hidden by default */
+}
+
+.abstract-visible {
+    display: block !important; /* Forces the abstract to be visible */
+}
+
+
+.abstract-toggle {
+    background-color: #579f76; /* Primary button color */
+    color: #ffffff; /* Text color */
+    border: none; /* Removes default border */
+    padding: 3px 6px; /* Reduced padding inside the button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    border-radius: 3px; /* Smaller rounded corners */
+    font-size: 0.7em; /* Smaller button text size */
+    font-weight: bold; /* Button text weight */
+    text-transform: uppercase; /* Makes text uppercase */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adds shadow to the button */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.abstract-toggle:hover, .abstract-toggle:focus {
+    background-color: #0bc354; /* Darker shade for hover/focus */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Slightly larger shadow for hover/focus */
+    outline: none; /* Removes outline to avoid double borders on focus */
+}
+
+
+
+
+
 
 
 @media (max-width: 768px) {
@@ -58,9 +97,32 @@
         align-items: center;
     }
     .pub-image img {
-        width: 80px; /* Smaller image size for mobile */
+        width: 150px; /* Adjust  for mobile */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 5px; /* Optional: Adjust for consistency */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adjust shadow for subtlety on mobile */
+    }
+    .pub-image {
+        position: relative;
+        display: flex;
+        justify-content: center; /* Center the image if the flex direction is column */
+        width: 100%; /* Ensure the container takes full width */
+        max-width: 200px; /* Limit the image container's max width */
+        margin-bottom: 10px; /* Add some space between the image and the abstract/content below */
     }
     .conference-tag {
         font-size: 0.8em; /* Adjust font size for mobile */
+        padding: 1px 4px; /* Adjust padding to fit smaller screens */
+    }
+    .abstract-content {
+        width: 95%; /* Adjust the width of the abstract content to fit mobile screens better */
+        padding: 10px; /* Add some padding for better readability */
+        margin: 10px 0; /* Add some margin above and below the abstract for spacing */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* opt: Add a subtle shadow for depth */
+    }
+    .abstract-toggle {
+        padding: 8px 16px; /* adjust button padding for a more touch-friendly size */
+        font-size: 0.9em; /* opt: adjust the font size for better readability */
+        margin-top: 10px; /* ensure there's a little space between the abstract and the button */
     }
 }
