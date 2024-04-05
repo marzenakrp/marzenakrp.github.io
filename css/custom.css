@@ -96,33 +96,39 @@
         flex-direction: column;
         align-items: center;
     }
-    .pub-image img {
-        width: 150px; /* Adjust  for mobile */
-        height: auto; /* Maintain aspect ratio */
-        border-radius: 5px; /* Optional: Adjust for consistency */
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adjust shadow for subtlety on mobile */
-    }
     .pub-image {
-        position: relative;
+        position: relative; /* Ensures the conference tag can be absolutely positioned relative to this container */
         display: flex;
-        justify-content: center; /* Center the image if the flex direction is column */
-        width: 100%; /* Ensure the container takes full width */
-        max-width: 200px; /* Limit the image container's max width */
-        margin-bottom: 10px; /* Add some space between the image and the abstract/content below */
+        justify-content: center;
+        align-items: center;
+        width: 100%; /* Use 100% width for the container to center the image */
+        max-width: 280px; /* Increase or adjust based on your preference */
+        margin-bottom: 10px;
+    }
+    .pub-image img {
+        width: 100%; /* Make the image width responsive within the container */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
     .conference-tag {
-        font-size: 0.8em; /* Adjust font size for mobile */
-        padding: 1px 4px; /* Adjust padding to fit smaller screens */
+        position: absolute;
+        bottom: 5px; /* Adjust the position to overlay on the bottom of the image */
+        left: 50%; /* Center align the tag horizontally */
+        transform: translateX(-50%); /* Adjust positioning to truly center based on tag's width */
+        font-size: 0.8em;
+        padding: 1px 4px;
     }
     .abstract-content {
-        width: 95%; /* Adjust the width of the abstract content to fit mobile screens better */
-        padding: 10px; /* Add some padding for better readability */
-        margin: 10px 0; /* Add some margin above and below the abstract for spacing */
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* opt: Add a subtle shadow for depth */
+        width: 95%;
+        padding: 10px;
+        margin: 10px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
     .abstract-toggle {
-        padding: 8px 16px; /* adjust button padding for a more touch-friendly size */
-        font-size: 0.9em; /* opt: adjust the font size for better readability */
-        margin-top: 10px; /* ensure there's a little space between the abstract and the button */
+        padding: 8px 16px;
+        font-size: 0.9em;
+        margin-top: 10px;
     }
 }
+
