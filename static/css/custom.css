@@ -88,43 +88,46 @@
 
 
 
-
 @media (max-width: 768px) {
+    /* Adjust the overall entry layout */
     .pub-entry {
         flex-direction: column;
-        align-items: center; /* Center align items vertically */
+        align-items: center; /* Ensure central alignment */
     }
+
+    /* Adjust the image container */
     .pub-image {
-        position: relative;
-        display: flex;
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
-        width: 100%; /* Take up full width to center content */
-        max-width: 280px; /* Adjust this value to fit the image size you want */
-        margin-bottom: 10px;
+        width: 100%; /* Full width to allow centering */
+        max-width: 280px; /* Control the size of the image */
+        margin: 0 auto 10px; /* Center horizontally and add margin below */
     }
+
+    /* Ensure the image itself is properly scaled */
     .pub-image img {
-        width: auto; /* Adjust based on actual image size */
-        max-width: 100%; /* Prevent image from exceeding the container's width */
+        width: 100%; /* Make the image responsive within its container */
+        max-width: 100%; /* Avoid exceeding the container's width */
         height: auto; /* Maintain aspect ratio */
-        border-radius: 5px;
     }
+
+    /* Correctly position the conference tag */
     .conference-tag {
         position: absolute;
-        bottom: 0;
-        left: 50%; /* Start at the center */
-        transform: translate(-50%, 100%); /* Shift upwards by 100% of its own height to move above the container */
-        font-size: 0.75em; /* Adjust as needed */
-        padding: 4px 8px; /* Adjust as needed */
-        white-space: nowrap; /* Prevent the tag from breaking into multiple lines */
+        transform: translateX(-50%);
+        left: 50%;
+        bottom: -20px; /* Adjust based on the tag's height to position it below the image */
     }
-    .abstract-content, .abstract-toggle {
-        width: 90%; /* Adjust the width as needed */
-        text-align: center; /* Center the text */
-        margin: 10px auto; /* Center align the abstract and button */
+
+    /* Style adjustments for the abstract content */
+    .abstract-content {
+        width: 90%; /* Slightly narrower for padding */
+        margin: 10px auto; /* Center align */
     }
+
+    /* Re-adjust the abstract toggle button for consistency */
     .abstract-toggle {
-        display: block; /* Ensure the button is treated as a block-level element for margin auto to work */
-        padding: 8px 16px; /* Adjust for touch friendliness */
+        padding: 8px 20px; /* Adequate padding for touch targets */
+        font-size: 0.9em; /* Legible font size */
+        margin: 20px auto; /* Space above and center align */
+        display: inline-block; /* Allows auto margins to center the element */
     }
 }
