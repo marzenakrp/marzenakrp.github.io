@@ -90,45 +90,45 @@
 
 
 
-
 @media (max-width: 768px) {
     .pub-entry {
         flex-direction: column;
         align-items: center;
     }
     .pub-image {
-        position: relative; /* Ensures the conference tag can be absolutely positioned relative to this container */
+        position: relative;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%; /* Use 100% width for the container to center the image */
-        max-width: 280px; /* Increase or adjust based on your preference */
+        justify-content: center; /* Center content horizontally */
+        align-items: center; /* Center content vertically */
+        width: 100%;
+        max-width: 280px; /* Adjust as needed to control image size */
         margin-bottom: 10px;
     }
     .pub-image img {
-        width: 100%; /* Make the image width responsive within the container */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%; /* Image takes full width of its container */
+        max-width: 100%; /* Ensure image does not exceed its natural width */
+        height: auto;
         border-radius: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
     .conference-tag {
         position: absolute;
-        bottom: 5px; /* Adjust the position to overlay on the bottom of the image */
-        left: 50%; /* Center align the tag horizontally */
-        transform: translateX(-50%); /* Adjust positioning to truly center based on tag's width */
-        font-size: 0.8em;
-        padding: 1px 4px;
+        bottom: -10px; /* Adjust as needed */
+        left: 50%;
+        transform: translateX(-50%); /* Center the tag horizontally */
+        font-size: 0.75em; /* Adjust font size for mobile */
+        padding: 4px 8px; /* Adjust padding */
     }
     .abstract-content {
         width: 95%;
         padding: 10px;
-        margin: 10px 0;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin: 10px auto; /* Center abstract content horizontally */
     }
     .abstract-toggle {
         padding: 8px 16px;
-        font-size: 0.9em;
-        margin-top: 10px;
+        font-size: 0.8em;
+        margin: 10px auto; /* Center the button horizontally */
+        display: block; /* Make the button a block element to apply auto margins */
     }
 }
+
 
