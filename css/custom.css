@@ -145,12 +145,12 @@
     border-radius: 10px; /* Rounded corners for the image */
     width: 200px; /* Adjust based on your needs */
     height: auto;
-    box-shadow: 0 4px 8px rgb(103, 6, 207); /* Soft shadow for depth */
+    box-shadow: 0 4px 8px rgb(207, 140, 6); /* Soft shadow for depth */
   }
   
   .project-description h3 {
     margin-top: 0;
-    color: rgb(175, 48, 210); /* Dark color for the text itself */
+    color: rgb(16, 171, 78); /* Dark color for the text itself */
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Shadow effect */
     font-size: 1.5em; 
     margin-bottom: 0.5em; /* Space between the title and the description */
