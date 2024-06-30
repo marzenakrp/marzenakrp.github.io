@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Marzena Karpinska</title>
-    <link>https://marzenakrp.github.io/</link>
+    <link>http://localhost:61979/</link>
     <description>Recent content in About on Marzena Karpinska</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://marzenakrp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:61979/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CV</title>
-      <link>https://marzenakrp.github.io/cv/</link>
+      <link>http://localhost:61979/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://marzenakrp.github.io/cv/</guid>
+      <guid>http://localhost:61979/cv/</guid>
       <description> The longer story: long The very short story: very short </description>
     </item>
     <item>
       <title>Projects</title>
-      <link>https://marzenakrp.github.io/projects/</link>
+      <link>http://localhost:61979/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://marzenakrp.github.io/projects/</guid>
+      <guid>http://localhost:61979/projects/</guid>
       <description>Here is a couple of long-term projects I&amp;rsquo;m working on right now! (more to come)&#xA;LitMT In LitMT we&#39;re looking into how machine translation can help translators and bring new stories to readers. Machine translation can make translators&#39; work easier by reducing their cognitive load (O&#39;Brien, 2012). But there&#39;s another side to it—the readers. We&#39;ve build a website to share novels that have been translated by machines, including some that haven’t been available in other languages before.</description>
     </item>
     <item>
       <title>Publications</title>
-      <link>https://marzenakrp.github.io/publications/</link>
+      <link>http://localhost:61979/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://marzenakrp.github.io/publications/</guid>
+      <guid>http://localhost:61979/publications/</guid>
       <description>You can also find my articles on my Google Scholar profile.&#xA;Total: 20&#xA;In English（英語） Preprint 1. book-open github globe &#34;One Thousand and One Pairs: A &#34;novel&#34; challenge for long-context language models&#34; Marzena Karpinska, Katherine Thai, Kyle Lo, Tanya Goyal, Mohit Iyyer (2024). Preprint 2. book-open github globe &#34;CaLMQA: Exploring culturally specific long-form question answering across 23 languages&#34; Shane Arora*, Marzena Karpinska*, Hung-Ting Chen, Ipsita Bhattacharjee, Mohit Iyyer, Eunsol Choi (2024).</description>
     </item>
   </channel>
