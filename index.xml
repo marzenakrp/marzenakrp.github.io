@@ -20,7 +20,7 @@
       <link>https://marzenakrp.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://marzenakrp.github.io/projects/</guid>
-      <description>Here is a couple of long-term projects I&amp;rsquo;m working on right now! (more to come)&#xA;LitMT In LitMT we&#39;re looking into how machine translation can help translators and bring new stories to readers. Machine translation can make translators&#39; work easier by reducing their cognitive load (O&#39;Brien, 2012). But there&#39;s another side to it—the readers. We&#39;ve build a website to share novels that have been translated by machines, including some that haven’t been available in other languages before.</description>
+      <description>Here is a couple of long-term projects I&amp;rsquo;m working on right now!&#xA;NoCha Large language models have made huge strides, expanding from handling up to 2k tokens to even 2M tokens. However, evaluating them remains a challenge. It&#39;s tough to assess book-length inputs and avoid testing on training data. NoCha addresses this by involving readers who have read recently published novels for entertainment. These readers create true and false claims about the books they read, writing pairs of statements about the same event or character, differing just by the false information included in the false claim.</description>
     </item>
     <item>
       <title>Publications</title>

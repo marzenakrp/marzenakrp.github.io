@@ -8,19 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Marzena Karpinska" />
     <meta name="description" content="" />
-    <link rel="stylesheet" href="/css/main.min.5b1fcc8902588589c4767187402a3c29f8b8d7a6fdef6d9f8f77045bb0d14fee.css" />
+    <link rel="stylesheet" href="/css/main.min.82c0fa439523f1e867fdc9ecb65bcc2b0a14f8649d9db6cb992fbaa692a1eb58.css" />
     
     <link rel="stylesheet" href="/css/custom.css">
     
 
     
     <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Projects"/>
-<meta name="twitter:description" content="Here is a couple of long-term projects I&rsquo;m working on right now! (more to come)
-LitMT In LitMT we&#39;re looking into how machine translation can help translators and bring new stories to readers. Machine translation can make translators&#39; work easier by reducing their cognitive load (O&#39;Brien, 2012). But there&#39;s another side to it—the readers. We&#39;ve build a website to share novels that have been translated by machines, including some that haven’t been available in other languages before."/>
+<meta name="twitter:description" content="Here is a couple of long-term projects I&rsquo;m working on right now!
+NoCha Large language models have made huge strides, expanding from handling up to 2k tokens to even 2M tokens. However, evaluating them remains a challenge. It&#39;s tough to assess book-length inputs and avoid testing on training data. NoCha addresses this by involving readers who have read recently published novels for entertainment. These readers create true and false claims about the books they read, writing pairs of statements about the same event or character, differing just by the false information included in the false claim."/>
 
     <meta property="og:title" content="Projects" />
-<meta property="og:description" content="Here is a couple of long-term projects I&rsquo;m working on right now! (more to come)
-LitMT In LitMT we&#39;re looking into how machine translation can help translators and bring new stories to readers. Machine translation can make translators&#39; work easier by reducing their cognitive load (O&#39;Brien, 2012). But there&#39;s another side to it—the readers. We&#39;ve build a website to share novels that have been translated by machines, including some that haven’t been available in other languages before." />
+<meta property="og:description" content="Here is a couple of long-term projects I&rsquo;m working on right now!
+NoCha Large language models have made huge strides, expanding from handling up to 2k tokens to even 2M tokens. However, evaluating them remains a challenge. It&#39;s tough to assess book-length inputs and avoid testing on training data. NoCha addresses this by involving readers who have read recently published novels for entertainment. These readers create true and false claims about the books they read, writing pairs of statements about the same event or character, differing just by the false information included in the false claim." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://marzenakrp.github.io/projects/" /><meta property="article:section" content="" />
 
@@ -77,7 +77,16 @@ LitMT In LitMT we&#39;re looking into how machine translation can help translato
       <h1 class ="post-title">Projects</h1>
     </header>
     <div class="post-content">
-      <p>Here is a couple of long-term projects I&rsquo;m working on right now! (more to come)</p>
+      <p>Here is a couple of long-term projects I&rsquo;m working on right now!</p>
+
+<div class="project-entry" style="display: flex; align-items: center; margin-bottom: 2rem;">
+    <img src="/images/nocha_leaderboard.png" alt="NoCha" class="project-image" style="flex-shrink: 0; margin-right: 1rem; border-radius: 10px; width: 350px; height: auto;">
+    <div class="project-description">
+      <h3>NoCha</h3>
+      <p>Large language models have made huge strides, expanding from handling up to 2k tokens to even 2M tokens. However, evaluating them remains a challenge. It's tough to assess book-length inputs and avoid testing on training data. NoCha addresses this by involving readers who have read recently published novels for entertainment. These readers create true and false claims about the books they read, writing pairs of statements about the same event or character, differing just by the false information included in the false claim. Models then validate these claims using the book as context. The idea is simple, if you know that “Despite her skills as an Apoth, Nusis is unable to reverse engineer the type of portal opened by the reagents key found in Rona's wooden chest.” is true, then you know that “By using her skills as an Apoth, Nusis is able to reverse engineer the type of portal opened by the reagents key found in Rona's wooden chest.” is false. Yet, this task is tough for current models, and you can see their performance on the <a href='https://novelchallenge.github.io/' target='_blank'>NoCha leaderboard</a>.</p>
+    </div>
+  </div>
+  
 
 <div class="project-entry" style="display: flex; align-items: center; margin-bottom: 2rem;">
     <img src="/images/litmt.png" alt="LitMT" class="project-image" style="flex-shrink: 0; margin-right: 1rem; border-radius: 10px; width: 350px; height: auto;">
