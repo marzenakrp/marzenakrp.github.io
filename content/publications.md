@@ -4,17 +4,17 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can also find my articles on my [Google Scholar profile](https://scholar.google.com/citations?user=-sWY5igAAAAJ&hl).
+You can also find my publications on my [Google Scholar profile](https://scholar.google.com/citations?user=-sWY5igAAAAJ&hl).
 
 **Total: 20**
 
 {{< themeText >}}In English（英語）{{< /themeText >}}
 {{< newline >}}
 
-{{< pubWithImage image="/images/nocha.png" conference="Preprint" >}}
+{{< pubWithImage image="/images/nocha.png" conference="EMNLP" >}}
 1. {{< bookOpenIcon "https://arxiv.org/abs/2406.16264" >}}  {{< githubIcon "https://github.com/marzenakrp/nocha/" >}}  {{< globeIcon "https://novelchallenge.github.io/" >}} <a href="https://arxiv.org/abs/2406.16264">"One Thousand and One Pairs: A "novel" challenge for long-context language models"</a>
 <br>
-<b>Marzena Karpinska</b>, Katherine Thai, Kyle Lo, Tanya Goyal, Mohit Iyyer (2024).
+<b>Marzena Karpinska</b>, Katherine Thai, Kyle Lo, Tanya Goyal, Mohit Iyyer (2024). (accepted to EMNLP 2024 Main)
 <!-- <div class="abstract-content" style="display:none;"> -->
 <!-- <p>Synthetic long-context LLM benchmarks (e.g., "needle-in-the-haystack") test only surface-level retrieval capabilities, but how well can long-context LLMs retrieve, synthesize, and reason over information across book-length inputs? We address this question by creating NoCha, a dataset of 1,001 minimally different pairs of true and false claims about 67 recently-published English fictional books, written by human readers of those books. In contrast to existing long-context benchmarks, our annotators confirm that the largest share of pairs in NoCha require global reasoning over the entire book to verify. Our experiments show that while human readers easily perform this task, it is enormously challenging for all ten long-context LLMs that we evaluate: no open-weight model performs above random chance (despite their strong performance on synthetic benchmarks), while GPT-4o achieves the highest accuracy at 55.8%. Further analysis reveals that (1) on average, models perform much better on pairs that require only sentence-level retrieval vs. global reasoning; (2) model-generated explanations for their decisions are often inaccurate even for correctly-labeled claims; and (3) models perform substantially worse on speculative fiction books that contain extensive world-building. The methodology proposed in NoCha allows for the evolution of the benchmark dataset and the easy analysis of future models.</p>
 </div>
@@ -31,10 +31,10 @@ Shane Arora*, <b>Marzena Karpinska*</b>, Hung-Ting Chen, Ipsita Bhattacharjee, M
 <button class="abstract-toggle">Abstract</button> -->
 {{< /pubWithImage >}}
 
-{{< pubWithImage image="/images/esa.png" conference="Preprint" >}}
+{{< pubWithImage image="/images/esa.png" conference="WMT" >}}
 3. {{< bookOpenIcon "https://arxiv.org/abs/2406.11580" >}}  <a href="https://arxiv.org/abs/2406.11580">"Error Span Annotation: A Balanced Approach for Human Evaluation of Machine Translation"</a>
 <br>
-Tom Kocmi, Vilém Zouhar, Eleftherios Avramidis, Roman Grundkiewicz, <b>Marzena Karpinska</b>, Maja Popović, Mrinmaya Sachan, Mariya Shmatova (2024).
+Tom Kocmi, Vilém Zouhar, Eleftherios Avramidis, Roman Grundkiewicz, <b>Marzena Karpinska</b>, Maja Popović, Mrinmaya Sachan, Mariya Shmatova (2024). (accepted to WMT 2024)
 <!-- <div class="abstract-content" style="display:none;">
 <p>High-quality Machine Translation (MT) evaluation relies heavily on human judgments. Comprehensive error classification methods, such as Multidimensional Quality Metrics (MQM), are expensive as they are time-consuming and can only be done by experts, whose availability may be limited especially for low-resource languages. On the other hand, just assigning overall scores, like Direct Assessment (DA), is simpler and faster and can be done by translators of any level, but are less reliable. In this paper, we introduce Error Span Annotation (ESA), a human evaluation protocol which combines the continuous rating of DA with the high-level error severity span marking of MQM. We validate ESA by comparing it to MQM and DA for 12 MT systems and one human reference translation (English to German) from WMT23. The results show that ESA offers faster and cheaper annotations than MQM at the same quality level, without the requirement of expensive MQM experts.</p>
 </div>
@@ -42,10 +42,10 @@ Tom Kocmi, Vilém Zouhar, Eleftherios Avramidis, Roman Grundkiewicz, <b>Marzena 
 {{< /pubWithImage >}}
 
 
-{{< pubWithImage image="/images/fables.png" conference="Preprint" >}}
+{{< pubWithImage image="/images/fables.png" conference="COLM" >}}
 4. {{< bookOpenIcon "https://arxiv.org/abs/2404.01261" >}}  {{< githubIcon "https://github.com/mungg/FABLES" >}} <a href="https://arxiv.org/abs/2404.01261">"FABLES: Evaluating faithfulness and content selection in book-length summarization"</a>
 <br>
-Yekyung Kim, Yapei Chang, <b>Marzena Karpinska</b>, Aparna Garimella, Varun Manjunatha, Kyle Lo, Tanya Goyal, Mohit Iyyer (2024).
+Yekyung Kim, Yapei Chang, <b>Marzena Karpinska</b>, Aparna Garimella, Varun Manjunatha, Kyle Lo, Tanya Goyal, Mohit Iyyer (2024). (accepted to COLM 2024)
 <!-- <div class="abstract-content" style="display:none;">
 <p>While long-context large language models (LLMs) can technically summarize book-length documents (>100K tokens), the length and complexity of the documents have so far prohibited evaluations of input-dependent aspects like faithfulness. In this paper, we conduct the first large-scale human evaluation of faithfulness and content selection on LLM-generated summaries of fictional books. Our study mitigates the issue of data contamination by focusing on summaries of books published in 2023 or 2024, and we hire annotators who have fully read each book prior to the annotation task to minimize cost and cognitive burden. We collect FABLES, a dataset of annotations on 3,158 claims made in LLM-generated summaries of 26 books, at a cost of $5.2K USD, which allows us to rank LLM summarizers based on faithfulness: Claude-3-Opus significantly outperforms all closed-source LLMs, while the open-source Mixtral is on par with GPT-3.5-Turbo. An analysis of the annotations reveals that most unfaithful claims relate to events and character states, and they generally require indirect reasoning over the narrative to invalidate. While LLM-based auto-raters have proven reliable for factuality and coherence in other settings, we implement several LLM raters of faithfulness and find that none correlates strongly with human annotations, especially with regard to detecting unfaithful claims. Our experiments suggest that detecting unfaithful claims is an important future direction not only for summarization evaluation but also as a testbed for long-context understanding. Finally, we move beyond faithfulness by exploring content selection errors in book-length summarization: we develop a typology of omission errors related to crucial narrative elements and also identify a systematic over-emphasis on events occurring towards the end of the book.</p>
 </div>
