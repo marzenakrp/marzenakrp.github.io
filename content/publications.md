@@ -34,7 +34,7 @@ Shane Arora*, <b>Marzena Karpinska*</b>, Hung-Ting Chen, Ipsita Bhattacharjee, M
 {{< pubWithImage image="/images/esa.png" conference="WMT" >}}
 3. {{< bookOpenIcon "https://arxiv.org/abs/2406.11580" >}}  <a href="https://arxiv.org/abs/2406.11580">"Error Span Annotation: A Balanced Approach for Human Evaluation of Machine Translation"</a>
 <br>
-Tom Kocmi, Vilém Zouhar, Eleftherios Avramidis, Roman Grundkiewicz, <b>Marzena Karpinska</b>, Maja Popović, Mrinmaya Sachan, Mariya Shmatova (2024). (accepted to WMT 2024)
+Tom Kocmi, Vilém Zouhar, Eleftherios Avramidis, Roman Grundkiewicz, <b>Marzena Karpinska</b>, Maja Popović, Mrinmaya Sachan, Mariya Shmatova (2024).
 <!-- <div class="abstract-content" style="display:none;">
 <p>High-quality Machine Translation (MT) evaluation relies heavily on human judgments. Comprehensive error classification methods, such as Multidimensional Quality Metrics (MQM), are expensive as they are time-consuming and can only be done by experts, whose availability may be limited especially for low-resource languages. On the other hand, just assigning overall scores, like Direct Assessment (DA), is simpler and faster and can be done by translators of any level, but are less reliable. In this paper, we introduce Error Span Annotation (ESA), a human evaluation protocol which combines the continuous rating of DA with the high-level error severity span marking of MQM. We validate ESA by comparing it to MQM and DA for 12 MT systems and one human reference translation (English to German) from WMT23. The results show that ESA offers faster and cheaper annotations than MQM at the same quality level, without the requirement of expensive MQM experts.</p>
 </div>

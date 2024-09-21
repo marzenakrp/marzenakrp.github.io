@@ -1,0 +1,173 @@
+.app-header-menu-item {
+    font-size: 22px; 
+}
+
+.news-box {
+    background-color: #42334a; /* Dark grey background #353b43 #252a31 */
+    border: 1px solid #5d3a6b; /* Dark purple border for contrast */
+    color: #dcdcdc; /* Light text color for better readability */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(155, 50, 185, 0.4); /* Soft shadow for depth */
+    height: 200px; /* Fixed height to trigger scrollbar */
+    overflow-y: auto; /* Enables vertical scrolling */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.news-box h3 {
+    color: #b19cd9; /* Light purple shade for heading for contrast */
+    margin-bottom: 5px; /* Reduced bottom margin */
+    margin-top: -10px; /* Optional: Adjusts top margin to push heading higher */
+}
+
+.news-box ul li::before {
+    content: '•'; /* The dot (or bullet) character */
+    color: #dcdcdc; /* Light color for the dot for better visibility */
+    position: absolute; /* Positions the pseudo-element relative to its parent li */
+    left: 0; /* Aligns the dot to the left */
+    top: 0; /* Aligns the dot to the top, adjust as needed */
+    font-size: 1em; /* Adjust the size of the dot as needed */
+}
+
+.news-box ul li a {
+    color: #d4bfff; /* Purple color for links */
+    text-decoration: none; /* Removes underline */
+    transition: color 0.3s ease; /* Smooth transition for color changes */
+}
+
+.news-box ul li a:hover {
+    color: #b846d1; /* A lighter purple for hover effect */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .news-box {
+        padding: 15px;
+        border-radius: 5px; /* Slightly less rounded on smaller screens */
+    }
+}
+
+/* abstract toggle */
+.abstract-content {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #262927; /* Light grey background for contrast */
+    border-radius: 5px; /* Soften edges */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    display: none; /* Ensures abstracts are hidden by default */
+}
+
+.abstract-visible {
+    display: block !important; /* Forces the abstract to be visible */
+}
+
+.abstract-toggle {
+    background-color: #9370db; /* Primary button color */
+    color: #ffffff; /* Text color */
+    border: none; /* Removes default border */
+    padding: 3px 6px; /* Reduced padding inside the button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    border-radius: 3px; /* Smaller rounded corners */
+    font-size: 0.7em; /* Smaller button text size */
+    font-weight: bold; /* Button text weight */
+    text-transform: uppercase; /* Makes text uppercase */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adds shadow to the button */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.abstract-toggle:hover, .abstract-toggle:focus {
+    background-color: #b19cd9; /* Lighter shade for hover/focus */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Slightly larger shadow for hover/focus */
+    outline: none; /* Removes outline to avoid double borders on focus */
+}
+
+@media (max-width: 768px) {
+    /* Adjust the overall entry layout */
+    .pub-entry {
+        flex-direction: column;
+        align-items: center; /* Ensure central alignment */
+    }
+
+    /* Adjust the image container */
+    .pub-image {
+        width: 100%; /* Full width to allow centering */
+        max-width: 280px; /* Control the size of the image */
+        margin: 0 auto 10px; /* Center horizontally and add margin below */
+    }
+
+    /* Ensure the image itself is properly scaled */
+    .pub-image img {
+        width: 100%; /* Make the image responsive within its container */
+        max-width: 100%; /* Avoid exceeding the container's width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Correctly position the conference tag */
+    .conference-tag {
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+        bottom: -20px; /* Adjust based on the tag's height to position it below the image */
+    }
+
+    /* Style adjustments for the abstract content */
+    .abstract-content {
+        width: 90%; /* Slightly narrower for padding */
+        margin: 10px auto; /* Center align */
+    }
+
+    /* Re-adjust the abstract toggle button for consistency */
+    .abstract-toggle {
+        padding: 8px 20px; /* Adequate padding for touch targets */
+        font-size: 0.9em; /* Legible font size */
+        margin: 20px auto; /* Space above and center align */
+        display: inline-block; /* Allows auto margins to center the element */
+    }
+}
+
+.project-entry {
+    display: flex;
+    align-items: flex-start; /* Align items to the start of the container vertically */
+    margin-bottom: 2rem;
+}
+
+.project-image {
+    flex-shrink: 0;
+    margin-right: 1rem;
+    border-radius: 10px; /* Rounded corners for the image */
+    width: 200px; /* Adjust based on your needs */
+    height: auto;
+    box-shadow: 0 4px 8px rgba(75, 0, 130, 0.2); /* Soft shadow for depth with purple tint */
+}
+
+.project-description h3 {
+    margin-top: 0;
+    color: #9370db; /* Purple color for the text */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Shadow effect */
+    font-size: 1.5em; 
+    margin-bottom: 0.5em; /* Space between the title and the description */
+}
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 768px) {
+    .project-entry {
+        flex-direction: column;
+        align-items: center; /* Center items for a vertical layout */
+    }
+
+    .project-image {
+        width: 80%; /* Adjust the image size for mobile screens */
+        margin-right: 0; /* Remove the margin-right as it's now vertically aligned */
+        margin-bottom: 1rem; /* Add some space below the image */
+    }
+
+    .project-description h3 {
+        text-align: center; /* Center-align the title */
+        font-size: 1.2em; /* Adjust the font size for mobile */
+    }
+
+    .project-description {
+        text-align: center; /* Ensure the description text is centered on mobile */
+    }
+}
