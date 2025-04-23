@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Marzena Karpinska</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in About on Marzena Karpinska</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CV</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>CV</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>Here is a couple of long-term projects I&amp;rsquo;m working on right now!&#xA;NoCha Large language models have made huge strides, expanding from handling up to 2k tokens to even 2M tokens. However, evaluating them remains a challenge. It&#39;s tough to assess book-length inputs and avoid testing on training data. NoCha addresses this by involving readers who have read recently published novels for entertainment. These readers create true and false claims about the books they read, writing pairs of statements about the same event or character, differing just by the false information included in the false claim.</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/</guid>
+      <description>You can also find my publications on my Google Scholar profile.&#xA;Total: 23&#xA;In English（英語） Preprint 1. book-open github &#34;One ruler to measure them all: Benchmarking multilingual long-context language models&#34; Yekyung Kim, Jenna Russell, Marzena Karpinska, Mohit Iyyer (2025). Preprint 2. book-open github &#34;People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text&#34; Jenna Russell, Marzena Karpinska, Mohit Iyyer (2025). Preprint 3. book-open &#34;OverThink: Slowdown Attacks on Reasoning LLMs&#34;</description>
+    </item>
+  </channel>
+</rss>

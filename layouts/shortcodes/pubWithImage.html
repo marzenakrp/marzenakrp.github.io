@@ -1,0 +1,28 @@
+<div class="pub-entry" style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 20px;">
+    <div class="pub-image" style="flex: 0 0 250px; position: relative; display: flex; justify-content: center; align-items: center;">
+        <img src="{{ .Get "image" }}" alt="Publication Image" style="width: 200px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 1);">
+        <span class="conference-tag" style="position: absolute; bottom: 0; left: 0; background: #99579f; color: #fff; padding: 1px 4px; font-size: 0.75em; border-radius: 0 4px 0 4px;">{{ .Get "conference" }}</span>
+    </div>
+    <div class="pub-content" style="flex: 1;">
+        {{ .Inner }}
+    </div>
+</div>
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.abstract-toggle').forEach(function(button) {
+                button.addEventListener('click', function() {
+                    var abstractContent = this.previousElementSibling; // Assumes abstract content is directly before the button
+                    // Toggle the visibility class
+                    abstractContent.classList.toggle('abstract-visible');
+
+                    // Update the button text based on the visibility of the abstract
+                    this.textContent = abstractContent.classList.contains('abstract-visible') ? 'Hide Abstract' : 'Abstract';
+
+                    // blur the button to remove focus
+                    this.blur();
+                });
+            });
+        });
+
+</script>
+    
