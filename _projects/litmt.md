@@ -26,4 +26,4 @@ LitMT is a specialized machine translation system designed specifically for lite
 - Support for poetry, prose, and dramatic works
 - Human-in-the-loop refinement options
 
-LitMT represents a significant advancement in applying machine translation to creative works, addressing the unique challenges posed by literary translation where meaning extends beyond the literal interpretation of words. 
+LitMT represents a significant advancement in applying machine translation to creative works, addressing the unique challenges posed by literary translation where meaning extends beyond the literal interpretation of words.

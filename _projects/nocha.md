@@ -26,4 +26,4 @@ NoCha is a web-based platform that enables non-technical users to create custom 
 - Support for various data types and ML tasks
 - Performance metrics and visualization tools
 
-NoCha addresses the gap between powerful AI technologies and domain experts who lack programming skills, making machine learning accessible to a broader audience of professionals. 
+NoCha addresses the gap between powerful AI technologies and domain experts who lack programming skills, making machine learning accessible to a broader audience of professionals.

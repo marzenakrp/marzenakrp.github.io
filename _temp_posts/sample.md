@@ -6,4 +6,4 @@ description: My first blog post
 tags: introduction
 ---
 
-This is my first blog post on my new website. More content coming soon! 
+This is my first blog post on my new website. More content coming soon!
