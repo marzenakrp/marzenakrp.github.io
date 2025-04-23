@@ -225,7 +225,6 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
 ## Table Of Contents
 
 <!--ts-->
-
 - [al-folio](#al-folio)
   - [User community](#user-community)
   - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
