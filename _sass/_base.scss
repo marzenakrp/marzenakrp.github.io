@@ -789,17 +789,21 @@ footer.sticky-bottom {
 
       .links {
         a.btn {
+          margin-right: 6px;
+          margin-bottom: 8px;
+          background-color: var(--global-card-bg-color);
           color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-left: 0;
-
+          border: 1px solid var(--global-divider-color);
+          font-size: 0.85rem;
+          padding: 4px 10px;
+          border-radius: 4px;
+          transition: all 0.2s ease;
+          
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: var(--global-theme-color);
+            color: var(--global-bg-color);
           }
         }
         a.award.btn {
@@ -867,6 +871,86 @@ footer.sticky-bottom {
     }
     div.award.hidden.open {
       border-color: var(--global-highlight-color);
+    }
+  }
+}
+
+// Publication abstracts
+.abstract, .bibtex, .award {
+  &.hidden {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  
+  &.open {
+    max-height: 1000px;
+    transition: max-height 0.6s ease;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+}
+
+// Publication images with conference tags
+.publication-image {
+  float: left;
+  position: relative;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  width: 200px;
+}
+
+.publication-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15), 0 0 20px rgba(100,100,255,0.1);
+  transition: all 0.3s ease;
+}
+
+.publication-image img:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2), 0 0 30px rgba(100,100,255,0.2);
+  transform: translateY(-2px);
+}
+
+.conference-tag {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  padding: 3px 8px;
+  font-size: 11px;
+  border-radius: 4px;
+  font-weight: 500;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+// Publication links
+.publications .links {
+  .btn {
+    margin-right: 6px;
+    margin-bottom: 8px;
+    background-color: var(--global-card-bg-color);
+    color: var(--global-text-color);
+    border: 1px solid var(--global-divider-color);
+    font-size: 0.85rem;
+    padding: 4px 10px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      background-color: var(--global-theme-color);
+      color: var(--global-bg-color);
     }
   }
 }
@@ -1416,4 +1500,34 @@ figure.cover {
   a.cover-link:hover {
     color: #23212d !important;
   }
+}
+
+// News section styles
+.news {
+  margin-top: 1em;
+  margin-bottom: 2em;
+
+  .table-responsive {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 0.5em;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  table th {
+    white-space: nowrap;
+  }
+}
+
+// Conference line
+.conference {
+  margin-top: 5px;
+  margin-bottom: 3px;
+  font-size: 0.95rem;
+  line-height: 1.3;
 }
