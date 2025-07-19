@@ -59,6 +59,15 @@
             {%- endfor -%}
           {%- endif -%}
 
+          {%- unless forloop.first -%}
+            {%- if forloop.last and forloop.length > 2 -%}
+              ,&nbsp;and&nbsp;
+            {%- elsif forloop.last and forloop.length == 2 -%}
+              &nbsp;and&nbsp;
+            {%- else -%}
+              ,&nbsp;
+            {%- endif -%}
+          {%- endunless -%}
           <span class="{% if author_is_self %}self-author{% endif %}">
             {%- if author.first contains "Marzena" and author.last contains "Karpinska" -%}
               <strong style="text-decoration: underline;">{{author.first}} {{author.last}}</strong>
@@ -70,14 +79,6 @@
               {%- else -%}
                 {{author.first}} {{author.last}}
               {%- endif -%}
-            {%- endif -%}
-            {%- if forloop.first == false -%}
-              {%- case forloop.length -%}
-                {%- when 2 -%}
-                  &nbsp;and&nbsp;
-                {%- else -%}
-                  {%- if forloop.last == true -%}&nbsp;and&nbsp;{%- else -%},&nbsp;{%- endif -%}
-              {%- endcase -%}
             {%- endif -%}
           </span>
         {% endfor %}
