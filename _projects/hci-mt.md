@@ -27,4 +27,4 @@ The HCI-MT project investigates novel interaction paradigms between human transl
 - Cognitive load reduction techniques
 - Customizable workspace configurations
 
-This research contributes to both the fields of human-computer interaction and translation studies, developing evidence-based approaches to interface design for professional translators working with machine translation tools. 
+This research contributes to both the fields of human-computer interaction and translation studies, developing evidence-based approaches to interface design for professional translators working with machine translation tools.
