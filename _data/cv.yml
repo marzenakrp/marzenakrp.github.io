@@ -1,0 +1,54 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Marzena Karpinska
+    - name: Position
+      value: Senior Researcher
+    - name: Affiliation
+      value: Microsoft
+    - name: Research Interests
+      value: Natural Language Processing, Language Models, Evaluation, Machine Translation
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD
+      institution: University of Massachusetts Amherst
+      year: 
+      description:
+        - Natural Language Processing
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Senior Researcher
+      institution: Microsoft
+      year: Present
+      description:
+        - Research in natural language processing and language models
+    
+- title: Selected Publications
+  type: list
+  contents:
+    - title: "Paraphrasing evades detectors of AI-generated text, but retrieval is an effective defense"
+      authors: K Krishna, Y Song, M Karpinska, J Wieting, M Iyyer
+      conference: Advances in Neural Information Processing Systems 36, 2023
+    
+    - title: "The Perils of Using Mechanical Turk to Evaluate Open-Ended Text Generation"
+      authors: M Karpinska, N Akoury, M Iyyer
+      conference: Proceedings of the Conference on Empirical Methods in Natural Language Processing, 2021
+    
+    - title: "Large language models effectively leverage document-level context for literary translation, but critical errors persist"
+      authors: M Karpinska, M Iyyer
+      conference: Proceedings of the Eighth Conference on Machine Translation, 2023
+      
+    - title: "One Thousand and One Pairs: A 'novel' challenge for long-context language models"
+      authors: M Karpinska, K Thai, K Lo, T Goyal, M Iyyer
+      conference: arXiv preprint (EMNLP 2024), 2024
+
+- title: Academic Service
+  type: list
+  contents:
+    - Program Chair, ACL 2023
+    - Reviewer for NeurIPS, ICLR, ACL, EMNLP, NAACL
