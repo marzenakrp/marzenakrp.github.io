@@ -172,6 +172,7 @@ I am interested in **how well natural language processing (NLP) systems handle l
 
 <div class="news-box">
   <ul class="news-list">
+    <li><span class="news-date">Aug 2025</span> Papers on <a href="https://arxiv.org/abs/2506.13468" target="_blank">interdisciplinary approach to MT</a>, <a href="https://arxiv.org/abs/2505.22945" target="_blank">cross-lingual memorization</a>, and <a href="https://arxiv.org/abs/2505.20276" target="_blank">quantization effects on long-context tasks</a> accepted to EMNLP 2025 🎉</li>
     <li><span class="news-date">Jul 2025</span> Our&nbsp;<a href="https://arxiv.org/abs/2503.01996">work</a>&nbsp;on multilingual long-context processing was accepted to COLM 🎉</li>
     <li><span class="news-date">Jun 2025</span>&nbsp;<a href="https://arxiv.org/abs/2506.13468">Preprint</a>&nbsp;on interdisciplinary approach to machine translation is out</li>
     <li><span class="news-date">Jun 2025</span> Serving as a Senior Area Chair at EMNLP</li>
@@ -225,8 +226,7 @@ I am interested in **how well natural language processing (NLP) systems handle l
     padding: 12px 0;
     border-bottom: 1px solid var(--global-divider-color);
     line-height: 1.5;
-    display: flex;
-    align-items: baseline;
+    display: block;
   }
   
   .news-list li:last-child {
@@ -245,10 +245,26 @@ I am interested in **how well natural language processing (NLP) systems handle l
     text-decoration: none;
     color: var(--global-theme-color);
     font-weight: 500;
+    display: inline;
+    white-space: normal;
   }
   
   .news-list a:hover {
     text-decoration: underline;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .news-list li {
+      display: block;
+    }
+    
+    .news-date {
+      display: block;
+      margin-bottom: 5px;
+      margin-right: 0;
+      min-width: auto;
+    }
   }
   
   /* Customized scrollbar */
@@ -272,11 +288,10 @@ I am interested in **how well natural language processing (NLP) systems handle l
   }
   
   @media (max-width: 576px) {
-    .news-list li {
-      flex-direction: column;
-    }
     .news-date {
       margin-bottom: 5px;
     }
   }
 </style>
+
+

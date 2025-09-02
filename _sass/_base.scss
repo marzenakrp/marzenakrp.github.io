@@ -758,9 +758,11 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        line-height: 1.35;
       }
 
       .author {
+        line-height: 1.5;
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -787,13 +789,13 @@ footer.sticky-bottom {
         }
 
         > span {
-          display: inline-block;
-          white-space: nowrap;
+          display: inline;
+          white-space: normal;
         }
 
-        // Prevent comma from wrapping to next line
+        // Remove negative margin that caused names/comma to overlap
         span:not(:first-child) {
-          margin-left: -2px;
+          margin-left: 0;
         }
       }
 

@@ -22,12 +22,14 @@
           src="{{ entry.preview | prepend: '/assets/img/' | relative_url }}"
           alt="preview"
         >
-        {% if entry.arxiv or entry.booktitle or entry.journal %}
+        {% if entry.arxiv or entry.booktitle or entry.journal or entry.conference %}
           <div
             class="conference-tag"
             style="position: absolute; bottom: 10px; left: 10px; background-color: rgba(0,0,0,0.7); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8em;"
           >
-            {% if entry.arxiv %}
+            {% if entry.conference %}
+              {{ entry.conference }}
+            {% elsif entry.arxiv %}
               Preprint
             {% elsif entry.booktitle %}
               {{ entry.booktitle }}
@@ -66,38 +68,19 @@
             {%- endfor -%}
           {%- endif -%}
 
-          {%- unless forloop.first -%}
-            {%- if forloop.last and forloop.length > 2 -%}
-              ,&nbsp;and&nbsp;
-            {%- elsif forloop.last and forloop.length == 2 -%}
-              &nbsp;and&nbsp;
-            {%- else -%}
-              ,&nbsp;
-            {%- endif -%}
-          {%- endunless -%}
           <span class="{% if author_is_self %}self-author{% endif %}">
             {%- if author.first contains 'Marzena' and author.last contains 'Karpinska' -%}
-              <strong style="text-decoration: underline;">
-                {{- author.first }}
-                {{ author.last -}}
-              </strong>
+              <strong style="text-decoration: underline;">{{ author.first }} {{ author.last }}</strong>
             {%- elsif author_is_self -%}
-              <strong>
-                {{- author.first }}
-                {{ author.last -}}
-              </strong>
+              <strong>{{ author.first }} {{ author.last }}</strong>
             {%- else -%}
               {% if coauthor_url -%}
-                <a href="{{coauthor_url}}">
-                  {{- author.first }}
-                  {{ author.last -}}
-                </a>
+                <a href="{{coauthor_url}}">{{ author.first }} {{ author.last }}</a>
               {%- else -%}
-                {{ author.first }}
-                {{ author.last }}
+                {{ author.first }} {{ author.last }}
               {%- endif -%}
             {%- endif -%}
-          </span>
+          </span>{%- unless forloop.last -%}{%- if forloop.index == authors.size - 1 and authors.size > 2 -%}, and {% elsif forloop.index == authors.size - 1 -%} and {% else -%}, {% endif -%}{%- endunless -%}
         {% endfor %}
       {% else %}
         {% assign authors = entry.author | split: ' and ' %}
@@ -108,45 +91,21 @@
             {% else %}
               {{ author }}
             {% endif %}
-            {%- if forloop.first == false -%}
-              {%- case forloop.length -%}
-                {%- when 2 -%}
-                  &nbsp;and&nbsp;
-                {%- else -%}
-                  {%- if forloop.last == true -%}&nbsp;and&nbsp;{%- else -%},&nbsp;{%- endif -%}
-              {%- endcase -%}
-            {%- endif -%}
-          </span>
+          </span>{%- unless forloop.last -%}{%- if forloop.index == authors.size - 1 and authors.size > 2 -%}, and {% elsif forloop.index == authors.size - 1 -%} and {% else -%}, {% endif -%}{%- endunless -%}
         {% endfor %}
       {% endif %}
+    </div>
 
-      <!-- Year only, no venue/conference text for preprints -->
-      {%- if entry.year %}
-        {% assign year = entry.year %}
-      {% else %}
-        {% assign year = 1900 %}
+    <!-- Venue -->
+    <div class="venue">
+      {% if entry.conference and entry.conference != 'Preprint' %}
+        <em>{{ entry.conference }}</em>
+      {% elsif entry.booktitle %}
+        <em>{{ entry.booktitle }}</em>
+      {% elsif entry.journal and entry.journal != 'arXiv preprint' %}
+        <em>{{ entry.journal }}</em>
       {% endif %}
-
-      <span class="venue">
-        {% assign is_preprint = false %}
-        {% if entry.conference == 'Preprint' or entry.arxiv or entry.journal contains 'arXiv preprint' %}
-          {% assign is_preprint = true %}
-        {% endif %}
-
-        {% unless is_preprint %}
-          <div class="conference">
-            {% if entry.booktitle %}
-              <em>{{ entry.booktitle }}</em>
-            {% elsif entry.journal %}
-              <em>{{ entry.journal }}</em>
-            {% elsif entry.conference %}
-              <em>{{ entry.conference }}</em>
-            {% endif %}
-          </div>
-        {% endunless %}
-        ({{ year }})
-      </span>
-
+      {% if entry.year %}({{ entry.year }}){% endif %}
       {% if entry.note %}
         <div class="note">{{ entry.note }}</div>
       {% endif %}
