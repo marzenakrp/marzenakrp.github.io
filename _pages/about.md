@@ -92,7 +92,7 @@ latest_posts:
 
 ## prospective students
 
-I am looking to hire 1-2 students for Fall 2026. If you are interested, you should apply via [this page](https://www.sfu.ca/gradstudies/apply/applying.html). Feel free to also reach out to me via email (note: I may not be able to reply to all emails, but I AM reading them all).
+I am looking to hire 1-2 students starting Fall 2026. If you are interested, you should apply via [this page](https://www.sfu.ca/gradstudies/apply/applying.html) by <b>January 19th</b>. Feel free to also reach out to me via email (note: I may not be able to reply to all emails, but I AM reading them all). Students from underrepresented groups are encouraged to apply!
 
 ## about me
 
@@ -176,7 +176,8 @@ I am interested in **how well natural language processing (NLP) systems handle l
 
 <div class="news-box">
   <ul class="news-list">
-    <li><span class="news-date">Oct 2025</span> New paper on AI-generated text in US news articles is out</li>
+    <li><span class="news-date">Jan 2026</span> Started as an assistant professor at Simon Fraser University in Vancouver, Canada.</li>
+    <li><span class="news-date">Oct 2025</span> New <a href="https://arxiv.org/abs/2510.18774" target="_blank">paper</a> on AI-generated text in US news articles is out</li>
     <li><span class="news-date">Aug 2025</span> Papers on <a href="https://arxiv.org/abs/2506.13468" target="_blank">interdisciplinary approach to MT</a>, <a href="https://arxiv.org/abs/2505.22945" target="_blank">cross-lingual memorization</a>, and <a href="https://arxiv.org/abs/2505.20276" target="_blank">quantization effects on long-context tasks</a> accepted to EMNLP 2025 🎉</li>
     <li><span class="news-date">Jul 2025</span> Our&nbsp;<a href="https://arxiv.org/abs/2503.01996">work</a>&nbsp;on multilingual long-context processing was accepted to COLM 🎉</li>
     <li><span class="news-date">Jun 2025</span>&nbsp;<a href="https://arxiv.org/abs/2506.13468">Preprint</a>&nbsp;on interdisciplinary approach to machine translation is out</li>
