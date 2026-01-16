@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Senior Researcher at Microsoft
+subtitle: Assistant Professor at Simon Fraser University
 
 profile:
   align: right
