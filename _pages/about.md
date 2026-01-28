@@ -108,6 +108,7 @@ I am interested in **how well natural language processing (NLP) systems handle l
 
 <div class="media-box">
   <ul class="media-list">
+    <li><span class="media-source">PessGazette</span> <a href="https://pressgazette.co.uk/north-america/study-claims-9-of-us-newspaper-articles-at-least-partly-ai-generated/" target="_blank">Study claims 9% of US newspaper articles at least partly AI generated</a></li>
     <li><span class="media-source">FORBES</span> <a href="https://www.forbes.com/sites/dereknewton/2025/04/21/study-shows-experienced-humans-can-spot-text-created-by-ai/" target="_blank">Study Shows Experienced Humans Can Spot Text Created By AI</a></li>
     <li><span class="media-source">THE ECONOMIST</span> <a href="https://www.economist.com/science-and-technology/2024/07/31/gpt-claude-llama-how-to-tell-which-ai-model-is-best" target="_blank">GPT, Claude, Llama? How to tell which AI model is best</a></li>
     <li><span class="media-source">TECH CRUNCH</span> <a href="https://techcrunch.com/2024/06/29/geminis-data-analyzing-abilities-arent-as-good-as-google-claims/" target="_blank">Gemini's data-analyzing abilities aren't as good as Google claims</a></li>
