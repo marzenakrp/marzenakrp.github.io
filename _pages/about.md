@@ -92,7 +92,7 @@ latest_posts:
 
 ## prospective students
 
-I am looking to hire 1-2 students starting Fall 2026. If you are interested, you should apply via [this page](https://www.sfu.ca/gradstudies/apply/applying.html) by <b>January 19th</b>. Feel free to also reach out to me via email (note: I may not be able to reply to all emails, but I AM reading them all). Students from underrepresented groups are encouraged to apply!
+Please fill in [this form](https://forms.gle/eauQXmbhTBECEv2d7) if you are interested in working with me. I have already given all offers for Fall 2026, but may consider hiring more students for later dates. SFU students are welcomed to sign up for research through CMPT 415/416.
 
 ## about me
 
