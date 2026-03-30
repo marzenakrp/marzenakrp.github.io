@@ -107,15 +107,16 @@ I am interested in **how well natural language processing (NLP) systems handle l
 ## media
 
 <div class="media-box">
+  <p class="media-legend"><span class="media-pill media-pill-mentions media-pill--tiny">mentions</span> refers to our findings <span class="media-legend-sep">·</span> <span class="media-pill media-pill-discusses media-pill--tiny">discusses</span> features our work</p>
   <ul class="media-list">
-    <li><span class="media-source">FUTURISM</span> <a href="https://futurism.com/artificial-intelligence/analysis-new-york-times-ai-articles" target="_blank">Study: New York Times Has Published Extensive AI-Generated Articles</a>&nbsp;[mentions our&nbsp;<a href="https://arxiv.org/abs/2510.18774" target="_blank">paper</a>]</li>
-    <li><span class="media-source">THE ATLANTIC</span> <a href="https://www.theatlantic.com/culture/2026/03/how-ai-creeping-new-york-times/686528/" target="_blank">How AI Is Creeping Into The New York Times</a>&nbsp;[mentions our&nbsp;<a href="https://arxiv.org/abs/2510.18774" target="_blank">paper</a>]</li>
-    <li><span class="media-source">WSJ</span> <a href="https://www.wsj.com/business/media/an-ai-upheaval-is-coming-for-media-this-journalist-is-already-all-in-3511d951" target="_blank">An AI Upheaval Is Coming for Media. This Journalist Is Already All In</a>&nbsp;[mentions our&nbsp;<a href="https://arxiv.org/abs/2510.18774" target="_blank">paper</a>]</li>
-    <li><span class="media-source">PRESS GAZETTE</span> <a href="https://pressgazette.co.uk/north-america/study-claims-9-of-us-newspaper-articles-at-least-partly-ai-generated/" target="_blank">Study claims 9% of US newspaper articles at least partly AI generated</a>&nbsp;[mentions our&nbsp;<a href="https://arxiv.org/abs/2510.18774" target="_blank">paper</a>]</li>
-    <li><span class="media-source">FORBES</span> <a href="https://www.forbes.com/sites/dereknewton/2025/04/21/study-shows-experienced-humans-can-spot-text-created-by-ai/" target="_blank">Study Shows Experienced Humans Can Spot Text Created By AI</a>&nbsp;[mentions our&nbsp;<a href="https://arxiv.org/abs/2501.15654" target="_blank">paper</a>]</li>
-    <li><span class="media-source">THE ECONOMIST</span> <a href="https://www.economist.com/science-and-technology/2024/07/31/gpt-claude-llama-how-to-tell-which-ai-model-is-best" target="_blank">GPT, Claude, Llama? How to tell which AI model is best</a>&nbsp;[mentions our&nbsp;<a href="https://arxiv.org/abs/2406.16264" target="_blank">paper</a>]</li>
-    <li><span class="media-source">TECH CRUNCH</span> <a href="https://techcrunch.com/2024/06/29/geminis-data-analyzing-abilities-arent-as-good-as-google-claims/" target="_blank">Gemini's data-analyzing abilities aren't as good as Google claims</a>&nbsp;[mentions our&nbsp;<a href="https://arxiv.org/abs/2406.16264" target="_blank">paper</a>]</li>
-    <li><span class="media-source">SLATOR</span> <a href="https://slator.com/in-literary-translation-humans-prefer-humans-and-machines-prefer-machines/" target="_blank">In Literary Translation, Humans Prefer Humans and Machines Prefer Machines</a>&nbsp;[mentions our&nbsp;<a href="https://aclanthology.org/2022.emnlp-main.672/" target="_blank">paper</a>]</li>
+    <li><span class="media-source">FUTURISM</span><div class="media-item-body"><a class="media-article-link" href="https://futurism.com/artificial-intelligence/analysis-new-york-times-ai-articles" target="_blank" rel="noopener noreferrer">Study: New York Times Has Published Extensive AI-Generated Articles</a><a class="media-pill media-pill-mentions" href="https://arxiv.org/abs/2510.18774" target="_blank" rel="noopener noreferrer">Mentions our paper</a></div></li>
+    <li><span class="media-source">THE ATLANTIC</span><div class="media-item-body"><a class="media-article-link" href="https://www.theatlantic.com/culture/2026/03/how-ai-creeping-new-york-times/686528/" target="_blank" rel="noopener noreferrer">How AI Is Creeping Into The New York Times</a><a class="media-pill media-pill-discusses" href="https://arxiv.org/abs/2510.18774" target="_blank" rel="noopener noreferrer">Discusses our paper</a></div></li>
+    <li><span class="media-source">WSJ</span><div class="media-item-body"><a class="media-article-link" href="https://www.wsj.com/business/media/an-ai-upheaval-is-coming-for-media-this-journalist-is-already-all-in-3511d951" target="_blank" rel="noopener noreferrer">An AI Upheaval Is Coming for Media. This Journalist Is Already All In</a><a class="media-pill media-pill-mentions" href="https://arxiv.org/abs/2510.18774" target="_blank" rel="noopener noreferrer">Mentions our paper</a></div></li>
+    <li><span class="media-source">PRESS GAZETTE</span><div class="media-item-body"><a class="media-article-link" href="https://pressgazette.co.uk/north-america/study-claims-9-of-us-newspaper-articles-at-least-partly-ai-generated/" target="_blank" rel="noopener noreferrer">Study claims 9% of US newspaper articles at least partly AI generated</a><a class="media-pill media-pill-discusses" href="https://arxiv.org/abs/2510.18774" target="_blank" rel="noopener noreferrer">Discusses our paper</a></div></li>
+    <li><span class="media-source">FORBES</span><div class="media-item-body"><a class="media-article-link" href="https://www.forbes.com/sites/dereknewton/2025/04/21/study-shows-experienced-humans-can-spot-text-created-by-ai/" target="_blank" rel="noopener noreferrer">Study Shows Experienced Humans Can Spot Text Created By AI</a><a class="media-pill media-pill-discusses" href="https://arxiv.org/abs/2501.15654" target="_blank" rel="noopener noreferrer">Discusses our paper</a></div></li>
+    <li><span class="media-source">THE ECONOMIST</span><div class="media-item-body"><a class="media-article-link" href="https://www.economist.com/science-and-technology/2024/07/31/gpt-claude-llama-how-to-tell-which-ai-model-is-best" target="_blank" rel="noopener noreferrer">GPT, Claude, Llama? How to tell which AI model is best</a><a class="media-pill media-pill-mentions" href="https://arxiv.org/abs/2406.16264" target="_blank" rel="noopener noreferrer">Mentions our paper</a></div></li>
+    <li><span class="media-source">TECH CRUNCH</span><div class="media-item-body"><a class="media-article-link" href="https://techcrunch.com/2024/06/29/geminis-data-analyzing-abilities-arent-as-good-as-google-claims/" target="_blank" rel="noopener noreferrer">Gemini's data-analyzing abilities aren't as good as Google claims</a><a class="media-pill media-pill-discusses" href="https://arxiv.org/abs/2406.16264" target="_blank" rel="noopener noreferrer">Discusses our paper</a></div></li>
+    <li><span class="media-source">SLATOR</span><div class="media-item-body"><a class="media-article-link" href="https://slator.com/in-literary-translation-humans-prefer-humans-and-machines-prefer-machines/" target="_blank" rel="noopener noreferrer">In Literary Translation, Humans Prefer Humans and Machines Prefer Machines</a><a class="media-pill media-pill-discusses" href="https://aclanthology.org/2022.emnlp-main.672/" target="_blank" rel="noopener noreferrer">Discusses our paper</a></div></li>
   </ul>
 </div>
 
@@ -128,6 +129,87 @@ I am interested in **how well natural language processing (NLP) systems handle l
     box-shadow: 0 2px 10px rgba(0,0,0,0.08);
     margin-top: 10px;
     margin-bottom: 20px;
+  }
+
+  .media-legend {
+    font-size: 0.8rem;
+    color: var(--global-text-color-light, #666);
+    margin: 10px 0 6px 0;
+    line-height: 1.6;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem 0.45rem;
+  }
+
+  .media-legend-sep {
+    opacity: 0.55;
+    margin: 0 0.1rem;
+  }
+
+  .media-item-body {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.45rem 0.65rem;
+  }
+
+  .media-pill {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 0.28em 0.85em;
+    border-radius: 999px;
+    line-height: 1.3;
+    flex-shrink: 0;
+    text-decoration: none !important;
+    cursor: pointer;
+    transition: filter 0.15s ease, box-shadow 0.15s ease;
+    box-sizing: border-box;
+  }
+
+  a.media-pill:hover {
+    filter: brightness(1.06);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+  }
+
+  .media-pill--tiny {
+    font-size: 0.68rem;
+    padding: 0.15em 0.55em;
+    vertical-align: middle;
+    cursor: default;
+    pointer-events: none;
+  }
+
+  .media-pill-mentions {
+    background: #f1f5f9;
+    color: #334155;
+    border: 1.5px solid #cbd5e1;
+  }
+
+  .media-pill-discusses {
+    background: #dbeafe;
+    color: #1e40af;
+    border: 1.5px solid #93c5fd;
+  }
+
+  html[data-theme="dark"] .media-pill-mentions {
+    background: #334155;
+    color: #e2e8f0;
+    border-color: #475569;
+  }
+
+  html[data-theme="dark"] .media-pill-discusses {
+    background: #1e3a5f;
+    border-color: #3b82f6;
+    color: #93c5fd;
+  }
+
+  html[data-theme="dark"] a.media-pill:hover {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
   }
   
   .media-list {
@@ -156,13 +238,13 @@ I am interested in **how well natural language processing (NLP) systems handle l
     font-size: 0.9rem;
   }
   
-  .media-list a {
+  .media-list a.media-article-link {
     text-decoration: none;
     color: var(--global-text-color);
     font-weight: 500;
   }
-  
-  .media-list a:hover {
+
+  .media-list a.media-article-link:hover {
     text-decoration: underline;
     color: var(--global-theme-color);
   }
@@ -173,6 +255,10 @@ I am interested in **how well natural language processing (NLP) systems handle l
     }
     .media-source {
       margin-bottom: 5px;
+    }
+    .media-item-body {
+      flex-direction: column;
+      align-items: flex-start;
     }
   }
 </style>

@@ -37,6 +37,19 @@ horizontal: true
     </div>
   </div>
 
+  <!-- Project 3: HCI-MT -->
+  <div class="project-card">
+    <div class="project-image">
+      <img src="/assets/img/publications/hci-mt.png" alt="HCI-MT">
+    </div>
+    <div class="project-content">
+      <h2>HCI-MT</h2>
+      <p>In this project, we're looking into how NLP systems can help translators work better and faster. It's clear these tools have a lot of potential, but figuring out how to fit them into the everyday workflow of translators isn't straightforward. My work involves working with literary translators to study their use of these technologies. We aim to understand how to use these systems most effectively to support their efforts in producing high-quality translations more efficiently.</p>
+      <div class="project-links">
+        <a href="https://arxiv.org/abs/2506.13468" class="btn btn-sm z-depth-0" role="button" target="_blank">Paper</a>
+      </div>
+    </div>
+  </div>
 
 </div>
 
