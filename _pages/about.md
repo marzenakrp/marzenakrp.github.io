@@ -211,6 +211,7 @@ I am interested in **how well natural language processing (NLP) systems handle l
     <li><span class="news-date">Jan 2023</span> Virtual talk at Polish Academy of Sciences on Evaluation of Long-form Text Generation.</li>
     <li><span class="news-date">Dec 2022</span> Presented&nbsp;<a href="https://aclanthology.org/2022.emnlp-main.649.pdf">our work</a>&nbsp;on diagnosing automatic evaluation metrics at EMNLP in Abu Dhabi.</li>
     <li><span class="news-date">Dec 2022</span> Presented&nbsp;<a href="https://aclanthology.org/2022.emnlp-main.672.pdf">our work</a>&nbsp;on document-level MT at EMNLP in Abu Dhabi.</li>
+    <li><span class="news-date">Nov 2022</span> <a href="https://slator.com/in-literary-translation-humans-prefer-humans-and-machines-prefer-machines/" target="_blank">Slator</a> on literary MT and our <a href="https://aclanthology.org/2022.emnlp-main.672/" target="_blank">PAR3</a> work</li>
   </ul>
 </div>
 
