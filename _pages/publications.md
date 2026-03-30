@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: "total: 26"
+description: "total: 27"
 nav: true
 nav_order: 2
 ---

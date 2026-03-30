@@ -2,11 +2,12 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Courses and teaching materials.
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## Spring 2026
 
-Organize your courses by years, topics, or universities, however you like!
+- **CMPT 419** — [Advanced Methods in Natural Language Processing](https://www.sfu.ca/outlines.html?2026/spring/cmpt/419/e100) (Special Topics in Artificial Intelligence)  
+  *3 contact hours per week · 22 students enrolled*

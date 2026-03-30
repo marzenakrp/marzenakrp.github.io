@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Key research projects I'm working on
+description: Some research projects I am working on
 nav: true
 nav_order: 3
 horizontal: true
