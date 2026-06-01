@@ -70,17 +70,36 @@
 
           <span class="{% if author_is_self %}self-author{% endif %}">
             {%- if author.first contains 'Marzena' and author.last contains 'Karpinska' -%}
-              <strong style="text-decoration: underline;">{{ author.first }} {{ author.last }}</strong>
+              <strong style="text-decoration: underline;">
+                {{- author.first }}
+                {{ author.last -}}
+              </strong>
             {%- elsif author_is_self -%}
-              <strong>{{ author.first }} {{ author.last }}</strong>
+              <strong>
+                {{- author.first }}
+                {{ author.last -}}
+              </strong>
             {%- else -%}
               {% if coauthor_url -%}
-                <a href="{{coauthor_url}}">{{ author.first }} {{ author.last }}</a>
+                <a href="{{coauthor_url}}">
+                  {{- author.first }}
+                  {{ author.last -}}
+                </a>
               {%- else -%}
-                {{ author.first }} {{ author.last }}
+                {{ author.first }}
+                {{ author.last }}
               {%- endif -%}
             {%- endif -%}
-          </span>{%- unless forloop.last -%}{%- if forloop.index == authors.size - 1 and authors.size > 2 -%}, and {% elsif forloop.index == authors.size - 1 -%} and {% else -%}, {% endif -%}{%- endunless -%}
+          </span>
+          {%- unless forloop.last -%}
+            {%- if forloop.index == authors.size - 1 and authors.size > 2 -%}
+              , and
+            {% elsif forloop.index == authors.size - 1 -%}
+              and
+            {% else -%}
+              ,
+            {% endif -%}
+          {%- endunless -%}
         {% endfor %}
       {% else %}
         {% assign authors = entry.author | split: ' and ' %}
@@ -91,7 +110,16 @@
             {% else %}
               {{ author }}
             {% endif %}
-          </span>{%- unless forloop.last -%}{%- if forloop.index == authors.size - 1 and authors.size > 2 -%}, and {% elsif forloop.index == authors.size - 1 -%} and {% else -%}, {% endif -%}{%- endunless -%}
+          </span>
+          {%- unless forloop.last -%}
+            {%- if forloop.index == authors.size - 1 and authors.size > 2 -%}
+              , and
+            {% elsif forloop.index == authors.size - 1 -%}
+              and
+            {% else -%}
+              ,
+            {% endif -%}
+          {%- endunless -%}
         {% endfor %}
       {% endif %}
     </div>

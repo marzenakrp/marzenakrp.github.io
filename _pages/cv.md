@@ -76,6 +76,7 @@ For a (rather complete) list of publications, please see my [Google Scholar prof
       </div>
 
     </div>
+
   </div>
 
   <div class="cv-column">
@@ -143,6 +144,7 @@ For a (rather complete) list of publications, please see my [Google Scholar prof
       </div>
 
     </div>
+
   </div>
 </div>
 
