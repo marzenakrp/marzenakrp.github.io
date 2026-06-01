@@ -11,7 +11,7 @@ nav_order: 4
 
 <img src="{{ '/assets/img/manta-lab-logo.png' | relative_url }}" alt="MANTA Lab logo" style="float: right; width: 140px; height: auto; margin: -3.5rem 0 1rem 1.5rem;">
 
-I lead the **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analysis) at Simon Fraser University.
+Welcome to **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analysis) at Simon Fraser University. We work on developing and assessing multilingual and culturally rich AI systems that serve a wide variety of users.
 
 ## PhD students
 

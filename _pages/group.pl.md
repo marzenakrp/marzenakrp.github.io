@@ -11,7 +11,7 @@ nav_order: 4
 
 <img src="{{ '/assets/img/manta-lab-logo.png' | relative_url }}" alt="Logo MANTA Lab" style="float: right; width: 140px; height: auto; margin: -3.5rem 0 1rem 1.5rem;">
 
-Kieruję **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analysis) na Uniwersytecie Simona Frasera.
+Witamy w **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analysis) na Uniwersytecie Simona Frasera. Zajmujemy się tworzeniem i ewaluacją wielojęzycznych i kulturowo bogatych systemów AI, które służą szerokiemu gronu użytkowników.
 
 ## doktoranci
 

@@ -11,7 +11,7 @@ nav_order: 4
 
 <img src="{{ '/assets/img/manta-lab-logo.png' | relative_url }}" alt="MANTA Lab ロゴ" style="float: right; width: 140px; height: auto; margin: -3.5rem 0 1rem 1.5rem;">
 
-サイモンフレーザー大学にて **MANTA Lab**（Multilingual AI for Narratives, Translation, and Analysis）を主宰しています。
+サイモンフレーザー大学の **MANTA Lab**（Multilingual AI for Narratives, Translation, and Analysis）へようこそ。私たちは、多様なユーザーに役立つ多言語かつ文化的に豊かな AI システムの開発と評価に取り組んでいます。
 
 ## 博士課程学生
 
