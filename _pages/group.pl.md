@@ -24,6 +24,8 @@ Witamy w **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analysi
 - **Ben Kiddie** — weryfikacja informacji, faktyczność
 - **Mitch Brown** — bezpieczeństwo modeli (safety alignment)
 - **Hala Obeid** — kreatywne generowanie wielojęzyczne
+- **Amandeep Manan** — kreatywne generowanie wielojęzyczne
+- **Sophia Don Tranho** — kreatywne generowanie wielojęzyczne
 
 ## studenci wizytujący i współpracujący
 
