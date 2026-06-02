@@ -24,6 +24,7 @@ Welcome to **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analy
 - **Ben Kiddie** — claim verification, factuality
 - **Mitch Brown** — safety alignment
 - **Hala Obeid** — creative multilingual generation
+- **Emmy Fong** — creative multilingual generation
 - **Amandeep Manan** — creative multilingual generation
 - **Sophia Don Tranho** — creative multilingual generation
 
