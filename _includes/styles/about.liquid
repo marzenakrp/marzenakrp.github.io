@@ -1,0 +1,251 @@
+{%- comment -%}
+  Shared styles for the About page (typing cursor, media box, news box).
+  Loaded by _pages/about.md, _pages/about.pl.md, _pages/about.ja.md so the
+  multilingual versions stay visually identical without duplicating CSS.
+{%- endcomment -%}
+<style>
+  .typing-container {
+    display: inline-block;
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 1.1rem;
+  }
+
+  .cursor {
+    display: inline-block;
+    width: 8px;
+    background-color: var(--global-text-color);
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  .media-box {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: var(--global-bg-color);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .media-legend {
+    font-size: 0.8rem;
+    color: var(--global-text-color-light, #666);
+    margin: 10px 0 6px 0;
+    line-height: 1.6;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem 0.45rem;
+  }
+
+  .media-legend-sep {
+    opacity: 0.55;
+    margin: 0 0.1rem;
+  }
+
+  .media-item-body {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.45rem 0.65rem;
+  }
+
+  .media-pill {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 0.28em 0.85em;
+    border-radius: 999px;
+    line-height: 1.3;
+    flex-shrink: 0;
+    text-decoration: none !important;
+    cursor: pointer;
+    transition: filter 0.15s ease, box-shadow 0.15s ease;
+    box-sizing: border-box;
+  }
+
+  a.media-pill:hover {
+    filter: brightness(1.06);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+  }
+
+  .media-pill--tiny {
+    font-size: 0.68rem;
+    padding: 0.15em 0.55em;
+    vertical-align: middle;
+    cursor: default;
+    pointer-events: none;
+  }
+
+  .media-pill-mentions {
+    background: #f1f5f9;
+    color: #334155;
+    border: 1.5px solid #cbd5e1;
+  }
+
+  .media-pill-discusses {
+    background: #dbeafe;
+    color: #1e40af;
+    border: 1.5px solid #93c5fd;
+  }
+
+  html[data-theme="dark"] .media-pill-mentions {
+    background: #334155;
+    color: #e2e8f0;
+    border-color: #475569;
+  }
+
+  html[data-theme="dark"] .media-pill-discusses {
+    background: #1e3a5f;
+    border-color: #3b82f6;
+    color: #93c5fd;
+  }
+
+  html[data-theme="dark"] a.media-pill:hover {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+  }
+
+  .media-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 5px;
+  }
+
+  .media-list li {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    line-height: 1.5;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .media-list li:last-child {
+    border-bottom: none;
+  }
+
+  .media-source {
+    color: var(--global-theme-color);
+    font-weight: 600;
+    min-width: 120px;
+    margin-right: 15px;
+    font-size: 0.9rem;
+  }
+
+  .media-list a.media-article-link {
+    text-decoration: none;
+    color: var(--global-text-color);
+    font-weight: 500;
+  }
+
+  .media-list a.media-article-link:hover {
+    text-decoration: underline;
+    color: var(--global-theme-color);
+  }
+
+  @media (max-width: 576px) {
+    .media-list li {
+      flex-direction: column;
+    }
+    .media-source {
+      margin-bottom: 5px;
+    }
+    .media-item-body {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  .news-box {
+    max-height: min(720px, 70vh);
+    overflow-y: auto;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: var(--global-bg-color);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    margin-top: 10px;
+  }
+
+  .news-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 5px;
+  }
+
+  .news-list li {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    line-height: 1.5;
+    display: block;
+  }
+
+  .news-list li:last-child {
+    border-bottom: none;
+  }
+
+  .news-date {
+    color: var(--global-theme-color);
+    font-weight: 600;
+    min-width: 80px;
+    margin-right: 15px;
+    font-size: 0.9rem;
+  }
+
+  .news-list a {
+    text-decoration: none;
+    color: var(--global-theme-color);
+    font-weight: 500;
+    display: inline;
+    white-space: normal;
+  }
+
+  .news-list a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .news-list li {
+      display: block;
+    }
+    .news-date {
+      display: block;
+      margin-bottom: 5px;
+      margin-right: 0;
+      min-width: auto;
+    }
+  }
+
+  .news-box::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .news-box::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.05);
+    border-radius: 8px;
+  }
+
+  .news-box::-webkit-scrollbar-thumb {
+    background: var(--global-theme-color);
+    opacity: 0.5;
+    border-radius: 8px;
+  }
+
+  .news-box::-webkit-scrollbar-thumb:hover {
+    opacity: 0.7;
+  }
+
+  @media (max-width: 576px) {
+    .news-date {
+      margin-bottom: 5px;
+    }
+  }
+</style>

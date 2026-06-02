@@ -30,6 +30,17 @@
   type="text/css"
   href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
 >
+{%- comment -%}
+  Noto Sans JP is loaded only on Japanese pages and on the language switcher so that
+  the 日本語 label renders consistently everywhere while avoiding a font payload for
+  non-JA visitors.
+{%- endcomment -%}
+<link
+  defer
+  rel="stylesheet"
+  type="text/css"
+  href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+>
 
 <!-- Code Syntax Highlighting -->
 <link
@@ -68,6 +79,25 @@
 {% endif %}
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+{%- comment -%}
+  hreflang alternate tags. For each page that declares `lang_ref` in its front matter,
+  look up all pages sharing that lang_ref and emit <link rel="alternate"> entries so
+  search engines can map the translations to each other.
+{%- endcomment -%}
+{%- if page.lang_ref -%}
+  {%- assign _all_pages = site.pages | concat: site.projects -%}
+  {%- for _p in _all_pages -%}
+    {%- if _p.lang_ref == page.lang_ref and _p.lang -%}
+      {%- assign _hreflang = _p.lang -%}
+      {%- for _l in site.languages -%}
+        {%- if _l.code == _p.lang -%}{%- assign _hreflang = _l.html_lang -%}{%- endif -%}
+      {%- endfor -%}
+      <link rel="alternate" hreflang="{{ _hreflang }}" href="{{ _p.url | replace:'index.html','' | absolute_url }}">
+    {%- endif -%}
+  {%- endfor -%}
+  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+{%- endif -%}
 
 <!-- Dark Mode -->
 <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>

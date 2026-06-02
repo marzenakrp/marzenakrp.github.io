@@ -1,0 +1,113 @@
+/*******************************************************************************
+ * Language switcher (EN · PL · 日本語) and per-language typography tweaks.
+ ******************************************************************************/
+
+// Keep every navbar item on a single line. The default Bootstrap nav uses
+// flex-nowrap on the <ul>, which squeezes children rather than letting them
+// overflow; without an explicit white-space rule the inner labels then wrap
+// on the first space (turning "o mnie" into two lines and "日本語" into a
+// vertical stack of characters).
+#navbarNav .nav-link,
+#navbarNav .lang-pill,
+#navbarNav #search-toggle {
+  white-space: nowrap;
+}
+
+// Don't let individual nav items get squished to the point of wrapping.
+#navbarNav .navbar-nav > .nav-item {
+  flex-shrink: 0;
+}
+
+// Navbar list item wrapping the pill group.
+.lang-switcher-item {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+// The pill group itself.
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0.15rem;
+  padding: 0.15rem;
+  margin: 0 0.35rem;
+  border-radius: 999px;
+  background: transparent;
+  line-height: 1;
+}
+
+// Each language pill.
+.lang-pill {
+  display: inline-block;
+  flex-shrink: 0;
+  padding: 0.28rem 0.6rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  white-space: nowrap;
+  color: var(--global-text-color-light, var(--global-text-color));
+  text-decoration: none !important;
+  border-radius: 999px;
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+
+  &:hover {
+    color: var(--global-theme-color);
+    background-color: rgba(0, 0, 0, 0.04);
+    transform: translateY(-1px);
+  }
+
+  &.active {
+    color: var(--global-bg-color);
+    background-color: var(--global-theme-color);
+    cursor: default;
+
+    &:hover {
+      transform: none;
+      background-color: var(--global-theme-color);
+    }
+  }
+
+  // Render the Japanese pill in Noto Sans JP so the label looks correct
+  // even on systems without a Japanese font installed by default.
+  &[lang="ja"] {
+    font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    font-weight: 500;
+  }
+}
+
+// Dark mode adjustments.
+html[data-theme="dark"] .lang-pill {
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+  }
+
+  &.active {
+    color: var(--global-bg-color);
+  }
+}
+
+// Mobile: collapsed navbar puts pills on their own line, left-aligned.
+@media (max-width: 576px) {
+  .lang-switcher-item {
+    justify-content: flex-start;
+    margin-top: 0.25rem;
+  }
+
+  .lang-switcher {
+    margin-left: 0;
+  }
+}
+
+// Apply Japanese web font to the entire page body when page.lang == 'ja'.
+// Hooked via <html lang="ja"> attribute set in _layouts/default.liquid.
+html[lang="ja"] body {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Roboto", sans-serif;
+}
+
+// Polish uses Latin script but benefits from explicit diacritic-friendly stack.
+html[lang="pl"] body {
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}

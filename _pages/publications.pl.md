@@ -1,17 +1,15 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
-lang: en
+permalink: /pl/publications/
+title: publikacje
+lang: pl
 lang_ref: publications
-description: "total: 27"
+description: "łącznie: 27"
 nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
+<!-- _pages/publications.pl.md -->
 
 {% include bib_search.liquid %}
 

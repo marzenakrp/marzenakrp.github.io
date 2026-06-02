@@ -1,20 +1,20 @@
 ---
 layout: page
-permalink: /cv/
-title: cv
-lang: en
+permalink: /pl/cv/
+title: CV
+lang: pl
 lang_ref: cv
 nav: true
 nav_order: 7
 ---
 
-You can download a copy of my CV [here](/assets/pdf/cv.pdf).
+CV w wersji PDF można pobrać [tutaj](/assets/pdf/cv.pdf).
 
-For a (rather complete) list of publications, please see my [Google Scholar profile](https://scholar.google.com/citations?user=-sWY5igAAAAJ).
+Pełniejszą listę publikacji znajdziesz na moim [profilu Google Scholar](https://scholar.google.com/citations?user=-sWY5igAAAAJ).
 
 <div class="cv-timeline-container">
   <div class="cv-column">
-    <h2 class="cv-section-title">EDUCATION</h2>
+    <h2 class="cv-section-title">WYKSZTAŁCENIE</h2>
     <div class="cv-timeline">
 
       <div class="cv-item">
@@ -22,8 +22,8 @@ For a (rather complete) list of publications, please see my [Google Scholar prof
         <div class="cv-connector"><div class="cv-dot"></div></div>
         <div class="cv-logo" style="background-color: #00356B;">東大</div>
         <div class="cv-details">
-          <strong>UNIVERSITY OF TOKYO</strong>
-          <p>Ph.D.</p>
+          <strong>UNIWERSYTET TOKIJSKI</strong>
+          <p>Doktorat (Ph.D.)</p>
         </div>
       </div>
 
@@ -32,8 +32,8 @@ For a (rather complete) list of publications, please see my [Google Scholar prof
         <div class="cv-connector"><div class="cv-dot"></div></div>
         <div class="cv-logo" style="background-color: #00356B;">東大</div>
         <div class="cv-details">
-          <strong>UNIVERSITY OF TOKYO</strong>
-          <p>Master of Arts</p>
+          <strong>UNIWERSYTET TOKIJSKI</strong>
+          <p>Magister</p>
         </div>
       </div>
 
@@ -42,8 +42,8 @@ For a (rather complete) list of publications, please see my [Google Scholar prof
         <div class="cv-connector"><div class="cv-dot"></div></div>
         <div class="cv-logo" style="background-color: #00356B;">東大</div>
         <div class="cv-details">
-          <strong>UNIVERSITY OF TOKYO</strong>
-          <p>Research Stay</p>
+          <strong>UNIWERSYTET TOKIJSKI</strong>
+          <p>Pobyt naukowy</p>
         </div>
       </div>
 
@@ -52,8 +52,8 @@ For a (rather complete) list of publications, please see my [Google Scholar prof
         <div class="cv-connector"><div class="cv-dot"></div></div>
         <div class="cv-logo" style="background-color: #A51E36;">UW</div>
         <div class="cv-details">
-          <strong>UNIVERSITY OF WARSAW</strong>
-          <p>Master of Arts</p>
+          <strong>UNIWERSYTET WARSZAWSKI</strong>
+          <p>Magister</p>
         </div>
       </div>
 
@@ -62,8 +62,8 @@ For a (rather complete) list of publications, please see my [Google Scholar prof
         <div class="cv-connector"><div class="cv-dot"></div></div>
         <div class="cv-logo" style="background-color: #1B4D3E;">外大</div>
         <div class="cv-details">
-          <strong>TOKYO UNIVERSITY OF FOREIGN STUDIES</strong>
-          <p>Research Stay</p>
+          <strong>TOKIJSKI UNIWERSYTET STUDIÓW ZAGRANICZNYCH</strong>
+          <p>Pobyt naukowy</p>
         </div>
       </div>
 
@@ -72,26 +72,25 @@ For a (rather complete) list of publications, please see my [Google Scholar prof
         <div class="cv-connector"><div class="cv-dot"></div></div>
         <div class="cv-logo" style="background-color: #A51E36;">UW</div>
         <div class="cv-details">
-          <strong>UNIVERSITY OF WARSAW</strong>
-          <p>Bachelor of Arts</p>
+          <strong>UNIWERSYTET WARSZAWSKI</strong>
+          <p>Licencjat</p>
         </div>
       </div>
 
     </div>
-
   </div>
 
   <div class="cv-column">
-    <h2 class="cv-section-title">PROFESSIONAL EXPERIENCE</h2>
+    <h2 class="cv-section-title">DOŚWIADCZENIE ZAWODOWE</h2>
     <div class="cv-timeline">
 
       <div class="cv-item">
-        <span class="cv-year">Now</span>
+        <span class="cv-year">obecnie</span>
         <div class="cv-connector"><div class="cv-dot"></div></div>
         <div class="cv-logo" style="background-color: #A6192E;">SFU</div>
         <div class="cv-details">
-          <strong>SIMON FRASER UNIVERSITY</strong>
-          <p>Assistant Professor</p>
+          <strong>UNIWERSYTET SIMONA FRASERA</strong>
+          <p>Profesor (Assistant Professor)</p>
         </div>
       </div>
 
@@ -111,7 +110,7 @@ For a (rather complete) list of publications, please see my [Google Scholar prof
         <div class="cv-logo" style="background-color: #881c1c;">UM</div>
         <div class="cv-details">
           <strong>UNIVERSITY OF MASSACHUSETTS AMHERST</strong>
-          <p>Postdoctoral Researcher</p>
+          <p>Pracownik naukowy po doktoracie</p>
         </div>
       </div>
 
@@ -120,8 +119,8 @@ For a (rather complete) list of publications, please see my [Google Scholar prof
         <div class="cv-connector"><div class="cv-dot"></div></div>
         <div class="cv-logo" style="background-color: #6B3FA0;">藝大</div>
         <div class="cv-details">
-          <strong>TOKYO UNIVERSITY OF THE ARTS</strong>
-          <p>Lecturer</p>
+          <strong>TOKIJSKI UNIWERSYTET SZTUKI</strong>
+          <p>Wykładowca</p>
         </div>
       </div>
 
@@ -131,7 +130,7 @@ For a (rather complete) list of publications, please see my [Google Scholar prof
         <div class="cv-logo" style="background-color: #0055A4;">NIT</div>
         <div class="cv-details">
           <strong>NIPPON INSTITUTE OF TECHNOLOGY</strong>
-          <p>Lecturer</p>
+          <p>Wykładowca</p>
         </div>
       </div>
 
@@ -141,12 +140,11 @@ For a (rather complete) list of publications, please see my [Google Scholar prof
         <div class="cv-logo" style="background-color: #E85D26;">ILL</div>
         <div class="cv-details">
           <strong>INNOVATIVE LANGUAGE LEARNING</strong>
-          <p>Language Specialist</p>
+          <p>Specjalista językowy</p>
         </div>
       </div>
 
     </div>
-
   </div>
 </div>
 

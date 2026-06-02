@@ -1,0 +1,41 @@
+{%- comment -%}
+  Typing animation used in the profile sidebar of the About page (all languages).
+  Word list is intentionally multilingual and identical across language versions.
+{%- endcomment -%}
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const words = ["hello!", "cześć!", "你好！", "こんにちは*(^o^)*", "halo!", "👋😀", "hola!", "bonjour💕", "안녕하세요^o^", "hallo", "ciao!", "привет", "مرحبا"];
+    let wordIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    let typingSpeed = 150;
+    const typedTextElement = document.getElementById('typed-text');
+
+    function type() {
+      const currentWord = words[wordIndex];
+
+      if (isDeleting) {
+        typedTextElement.textContent = currentWord.substring(0, charIndex - 1);
+        charIndex--;
+        typingSpeed = 80;
+      } else {
+        typedTextElement.textContent = currentWord.substring(0, charIndex + 1);
+        charIndex++;
+        typingSpeed = 150;
+      }
+
+      if (!isDeleting && charIndex === currentWord.length) {
+        isDeleting = true;
+        typingSpeed = 1000;
+      } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        wordIndex = (wordIndex + 1) % words.length;
+        typingSpeed = 500;
+      }
+
+      setTimeout(type, typingSpeed);
+    }
+
+    type();
+  });
+</script>

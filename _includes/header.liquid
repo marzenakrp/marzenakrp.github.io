@@ -42,46 +42,97 @@
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
-          {% endfor %}
+          {%- comment -%}
+            Multilingual plumbing:
+            - _current_lang: the current page's language code (defaults to site.lang).
+            - _i18n: UI strings bundle for that language, falling back to English if missing.
+            - _nav_data: per-language navigation list, falling back to the default EN list.
+            - _home_url: language-specific home URL ("/" for EN, "/pl/" for PL, etc.).
+          {%- endcomment -%}
+          {% assign _current_lang = page.lang | default: site.lang %}
+          {% assign _i18n = site.data.i18n[_current_lang] | default: site.data.i18n.en %}
+          {% assign _nav_data = site.data.navigation[_current_lang] | default: site.data.navigation.en %}
+          {% if _current_lang == 'en' %}
+            {% assign _home_url = '/' %}
+          {% else %}
+            {% assign _home_url = '/' | append: _current_lang | append: '/' %}
+          {% endif %}
 
-          <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
-              about
-              {% if page.permalink == '/' %}
-                <span class="sr-only">(current)</span>
+          <!-- About (home for the current language) -->
+          <li class="nav-item {% if page.url == _home_url or page.permalink == _home_url %}active{% endif %}">
+            <a class="nav-link" href="{{ _home_url | relative_url }}">
+              {{ _i18n.nav.about }}
+              {% if page.url == _home_url or page.permalink == _home_url %}
+                <span class="sr-only">{{ _i18n.nav.current }}</span>
               {% endif %}
             </a>
           </li>
 
-          <!-- Custom navigation from _data/navigation.yml -->
-          {% for item in site.data.navigation %}
-            {% if item.title != 'about' %}
+          <!-- Custom navigation from _data/navigation[.lang].yml -->
+          {% for item in _nav_data %}
+            {%- comment -%} Skip the "about" item since it's rendered above. {%- endcomment -%}
+            {% assign _item_url_trim = item.url | replace: '/', '' %}
+            {% assign _home_url_trim = _home_url | replace: '/', '' %}
+            {% unless _item_url_trim == _home_url_trim %}
               <li class="nav-item {% if page.url contains item.url %}active{% endif %}">
                 <a class="nav-link" href="{{ item.url | relative_url }}">
                   {{ item.title }}
                   {% if page.url contains item.url %}
-                    <span class="sr-only">(current)</span>
+                    <span class="sr-only">{{ _i18n.nav.current }}</span>
                   {% endif %}
                 </a>
               </li>
-            {% endif %}
+            {% endunless %}
           {% endfor %}
 
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+              <button id="search-toggle" title="{{ _i18n.nav.search }}" onclick="openSearchModal()">
                 <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
               </button>
             </li>
           {% endif %}
+
+          {%- comment -%}
+            Language switcher pills. For each registered language, compute the URL of
+            the equivalent page via matching `lang_ref`, falling back to the language's
+            home URL if no translation exists yet.
+          {%- endcomment -%}
+          {% if site.languages and site.languages.size > 1 %}
+            <li class="nav-item lang-switcher-item">
+              <div class="lang-switcher" role="group" aria-label="{{ _i18n.language.label }}">
+                {% assign _all_translatable = site.pages | concat: site.projects %}
+                {% for _lang in site.languages %}
+                  {% assign _lang_home = '/' %}
+                  {% if _lang.path_prefix and _lang.path_prefix != '' %}
+                    {% assign _lang_home = _lang.path_prefix | append: '/' %}
+                  {% endif %}
+                  {% assign _target_url = _lang_home %}
+                  {% if page.lang_ref %}
+                    {% for _p in _all_translatable %}
+                      {% if _p.lang_ref == page.lang_ref and _p.lang == _lang.code %}
+                        {% assign _target_url = _p.url %}
+                      {% endif %}
+                    {% endfor %}
+                  {% endif %}
+                  <a
+                    class="lang-pill {% if _lang.code == _current_lang %}active{% endif %}"
+                    href="{{ _target_url | relative_url }}"
+                    hreflang="{{ _lang.html_lang }}"
+                    lang="{{ _lang.html_lang }}"
+                    aria-current="{% if _lang.code == _current_lang %}true{% else %}false{% endif %}"
+                    title="{{ _lang.native_name }}"
+                  >{{ _lang.native_name }}</a>
+                {% endfor %}
+              </div>
+            </li>
+          {% endif %}
+
           {% if site.enable_darkmode %}
-            <!-- Toogle theme mode -->
+            <!-- Toggle theme mode -->
             <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
+              <button id="light-toggle" title="{{ _i18n.misc.toggle_theme }}">
                 <i class="ti ti-sun-moon" id="light-toggle-system"></i>
                 <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
                 <i class="ti ti-sun-filled" id="light-toggle-light"></i>

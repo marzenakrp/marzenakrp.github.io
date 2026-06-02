@@ -1,0 +1,43 @@
+# Japanese UI strings.
+# 第一草案 – ご確認・ご修正をお願いします (desu/masu form, polite academic register).
+
+nav:
+  about: プロフィール
+  publications: 論文
+  projects: プロジェクト
+  group: 研究室
+  teaching: 授業
+  service: 学会活動
+  cv: 履歴
+  blog: ブログ
+  search: 検索
+  current: "（現在のページ）"
+
+language:
+  label: 言語
+  english: English
+  polish: Polski
+  japanese: 日本語
+
+sections:
+  prospective_students: 入学希望の方へ
+  about_me: プロフィール
+  research: 研究内容
+  media: メディア掲載
+  news: お知らせ
+
+media:
+  mentions: 言及
+  mentions_desc: 研究成果に言及
+  discusses: 紹介
+  discusses_desc: 研究内容を紹介
+
+footer:
+  last_updated: "最終更新"
+  back_to_top: トップへ戻る
+  copyright_suffix: ""
+
+misc:
+  search_placeholder: 検索
+  toggle_navigation: ナビゲーションを切り替え
+  toggle_theme: テーマを切り替え

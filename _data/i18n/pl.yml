@@ -1,0 +1,43 @@
+# Polish UI strings.
+# Pierwsza wersja robocza – prosze o korekte (warm, professional tone).
+
+nav:
+  about: o mnie
+  publications: publikacje
+  projects: projekty
+  group: zespół
+  teaching: dydaktyka
+  service: działalność
+  cv: CV
+  blog: blog
+  search: Szukaj
+  current: "(bieżąca)"
+
+language:
+  label: Język
+  english: English
+  polish: Polski
+  japanese: 日本語
+
+sections:
+  prospective_students: dla studentów zainteresowanych współpracą
+  about_me: o mnie
+  research: badania
+  media: media
+  news: aktualności
+
+media:
+  mentions: wzmianka
+  mentions_desc: nawiązuje do naszych wyników
+  discusses: omawia
+  discusses_desc: opisuje naszą pracę
+
+footer:
+  last_updated: "Ostatnia aktualizacja"
+  back_to_top: Na górę
+  copyright_suffix: ""
+
+misc:
+  search_placeholder: Szukaj
+  toggle_navigation: Przełącz nawigację
+  toggle_theme: Zmień motyw

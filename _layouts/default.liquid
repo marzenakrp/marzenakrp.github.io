@@ -1,5 +1,16 @@
 <!doctype html>
-<html lang="{{ site.lang }}">
+{%- comment -%}
+  Resolve the HTML lang attribute from the `languages` list defined in _config.yml,
+  falling back to the site-wide `lang` if the page's language code isn't registered.
+{%- endcomment -%}
+{%- assign _current_lang_code = page.lang | default: site.lang -%}
+{%- assign _html_lang = site.lang -%}
+{%- for _l in site.languages -%}
+  {%- if _l.code == _current_lang_code -%}
+    {%- assign _html_lang = _l.html_lang -%}
+  {%- endif -%}
+{%- endfor -%}
+<html lang="{{ _html_lang }}">
   <!-- Head -->
   <head>
     {% if page.redirect %}

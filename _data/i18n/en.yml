@@ -1,0 +1,50 @@
+# English UI strings.
+# Referenced from templates as: {{ site.data.i18n[page.lang].<key> }}
+# Keep keys in sync across en.yml, pl.yml, ja.yml.
+
+# Navbar labels (shown when no per-language navigation.<lang>.yml override is set)
+nav:
+  about: about
+  publications: publications
+  projects: projects
+  group: group
+  teaching: teaching
+  service: service
+  cv: cv
+  blog: blog
+  search: Search
+  current: "(current)"
+
+# Language switcher
+language:
+  label: Language
+  english: English
+  polish: Polski
+  japanese: 日本語
+
+# About page section headings
+sections:
+  prospective_students: prospective students
+  about_me: about me
+  research: research
+  media: media
+  news: news
+
+# Media list legend
+media:
+  mentions: mentions
+  mentions_desc: refers to our findings
+  discusses: discusses
+  discusses_desc: features our work
+
+# Footer
+footer:
+  last_updated: "Last updated"
+  back_to_top: Back to top
+  copyright_suffix: ""  # shown after the name in the copyright line; blank for English
+
+# Misc
+misc:
+  search_placeholder: Search
+  toggle_navigation: Toggle navigation
+  toggle_theme: Change theme

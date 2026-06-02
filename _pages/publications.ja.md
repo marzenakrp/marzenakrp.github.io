@@ -1,17 +1,15 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
-lang: en
+permalink: /ja/publications/
+title: 論文
+lang: ja
 lang_ref: publications
-description: "total: 27"
+description: "論文数：27 件"
 nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
+<!-- _pages/publications.ja.md -->
 
 {% include bib_search.liquid %}
 

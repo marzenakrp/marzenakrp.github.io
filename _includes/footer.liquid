@@ -1,3 +1,9 @@
+{%- comment -%}
+  i18n: pick the UI strings bundle for the current page's language.
+  Falls back to English if an entry is missing.
+{%- endcomment -%}
+{% assign _footer_lang = page.lang | default: site.lang %}
+{% assign _footer_i18n = site.data.i18n[_footer_lang] | default: site.data.i18n.en %}
 {% capture footer_contents %}
   &copy; Copyright {{ site.time | date: '%Y' }}
   {{ site.first_name }}
@@ -7,7 +13,7 @@
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
   {% endif %}
   {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+    {{ _footer_i18n.footer.last_updated }}: {{ 'now' | date: '%B %d, %Y' }}.
   {% endif %}
 {% endcapture %}
 
