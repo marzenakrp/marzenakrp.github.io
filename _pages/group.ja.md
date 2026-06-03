@@ -17,6 +17,11 @@ nav_order: 4
 
 - **[Weidong Zhang](https://zhangwd630.github.io/)** — 2026年秋入学予定。前所属：Northeastern University。
 
+## 訪問・共同研究学生
+
+- **Yves Ferstler** — 人間中心の機械翻訳；[Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html) の訪問学生、UQAM の博士課程1年生、指導教員：[Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
+- **Himani Paudayal** — 安全性アライメント；現在 KAIST の学部生
+
 ## 学部生
 
 - **Ty Brassington** — 安全性アライメント、創発的ミスアライメント
@@ -34,8 +39,3 @@ nav_order: 4
 - **Aniyah Bohnen** — 多言語のクリエイティブ生成
 - **Amandeep Manan** — 多言語のクリエイティブ生成
 - **Sophia Don Tranho** — 多言語のクリエイティブ生成
-
-## 訪問・共同研究学生
-
-- **Yves Ferstler** — 人間中心の機械翻訳；[Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html) の訪問学生、UQAM の博士課程1年生、指導教員：[Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
-- **Himani Paudayal** — 安全性アライメント；現在 KAIST の学部生

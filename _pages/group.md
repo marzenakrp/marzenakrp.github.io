@@ -17,6 +17,11 @@ Welcome to **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analy
 
 - **[Weidong Zhang](https://zhangwd630.github.io/)** — starting Fall 2026. Last stop: Northeastern University.
 
+## visiting and collaborating students
+
+- **Yves Ferstler** — human-centered machine translation; visiting student at the [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html), first-year PhD student at UQAM advised by [Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
+- **Himani Paudayal** — safety alignment; currently an undergraduate student at KAIST
+
 ## undergraduate students
 
 - **Ty Brassington** — safety alignment, emergent misalignment
@@ -34,8 +39,3 @@ Welcome to **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analy
 - **Aniyah Bohnen** — creative multilingual generation
 - **Amandeep Manan** — creative multilingual generation
 - **Sophia Don Tranho** — creative multilingual generation
-
-## visiting and collaborating students
-
-- **Yves Ferstler** — human-centered machine translation; visiting student at the [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html), first-year PhD student at UQAM advised by [Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
-- **Himani Paudayal** — safety alignment; currently an undergraduate student at KAIST

@@ -17,6 +17,11 @@ Witamy w **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analysi
 
 - **[Weidong Zhang](https://zhangwd630.github.io/)** — rozpoczyna jesienią 2026. Wcześniej: Northeastern University.
 
+## studenci wizytujący i współpracujący
+
+- **Yves Ferstler** — tłumaczenie maszynowe zorientowane na człowieka; student wizytujący w [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html), doktorant pierwszego roku na UQAM pod opieką [Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
+- **Himani Paudayal** — bezpieczeństwo modeli (safety alignment); obecnie studentka studiów licencjackich na KAIST
+
 ## studenci studiów licencjackich
 
 - **Ty Brassington** — bezpieczeństwo modeli (safety alignment), emergent misalignment
@@ -34,8 +39,3 @@ Witamy w **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analysi
 - **Aniyah Bohnen** — kreatywne generowanie wielojęzyczne
 - **Amandeep Manan** — kreatywne generowanie wielojęzyczne
 - **Sophia Don Tranho** — kreatywne generowanie wielojęzyczne
-
-## studenci wizytujący i współpracujący
-
-- **Yves Ferstler** — tłumaczenie maszynowe zorientowane na człowieka; student wizytujący w [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html), doktorant pierwszego roku na UQAM pod opieką [Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
-- **Himani Paudayal** — bezpieczeństwo modeli (safety alignment); obecnie studentka studiów licencjackich na KAIST
