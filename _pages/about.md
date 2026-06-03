@@ -32,7 +32,7 @@ latest_posts:
 
 ## prospective students
 
-Please fill in [this form](https://forms.gle/eauQXmbhTBECEv2d7) if you are interested in working with me. I have already given all offers for Fall 2026, but may consider hiring more students for later dates. SFU students are welcomed to sign up for research through CMPT 415/416.
+Please fill in [this form](https://forms.gle/eauQXmbhTBECEv2d7) if you are interested in working with me. I am checking it at least once a month though I can't respond to everyone (sorry!). I have already given all offers for Fall 2026, but may consider hiring more students for later dates. SFU students are welcomed to sign up for research through CMPT 415/416. Important: If you are sending me an email please do NOT generate it. Generated emails will be delated without consideration.
 
 ## about me
 
