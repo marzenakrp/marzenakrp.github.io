@@ -19,7 +19,7 @@ Welcome to **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analy
 
 ## visiting and collaborating students
 
-- **Yves Ferstler** (Spring/Summer 2026) — human-centered machine translation; visiting student at the [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html), first-year PhD student at UQAM advised by [Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
+- **Yves Ferstler** (Spring/Summer 2026) — human-centered machine translation; visiting student at the [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html), working there with Maite Taboada, first-year PhD student at UQAM advised by [Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
 - **Himani Paudayal** (Summer 2026) — safety alignment; currently an undergraduate student at KAIST
 
 ## undergraduate students
