@@ -25,6 +25,7 @@ nav_order: 4
 - **Mitch Brown** — 安全性アライメント
 - **Hala Obeid** — 多言語のクリエイティブ生成
 - **Emmy Fong** — 多言語のクリエイティブ生成
+- **Aniyah Bohnen** — 多言語のクリエイティブ生成
 - **Amandeep Manan** — 多言語のクリエイティブ生成
 - **Sophia Don Tranho** — 多言語のクリエイティブ生成
 

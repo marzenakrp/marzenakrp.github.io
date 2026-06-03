@@ -25,6 +25,7 @@ Welcome to **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analy
 - **Mitch Brown** — safety alignment
 - **Hala Obeid** — creative multilingual generation
 - **Emmy Fong** — creative multilingual generation
+- **Aniyah Bohnen** — creative multilingual generation
 - **Amandeep Manan** — creative multilingual generation
 - **Sophia Don Tranho** — creative multilingual generation
 
