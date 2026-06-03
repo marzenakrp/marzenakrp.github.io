@@ -19,23 +19,23 @@ Witamy w **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analysi
 
 ## studenci wizytujący i współpracujący
 
-- **Yves Ferstler** — tłumaczenie maszynowe zorientowane na człowieka; student wizytujący w [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html), doktorant pierwszego roku na UQAM pod opieką [Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
-- **Himani Paudayal** — bezpieczeństwo modeli (safety alignment); obecnie studentka studiów licencjackich na KAIST
+- **Yves Ferstler** (Spring/Summer 2026) — tłumaczenie maszynowe zorientowane na człowieka; student wizytujący w [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html), doktorant pierwszego roku na UQAM pod opieką [Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
+- **Himani Paudayal** (Summer 2026) — bezpieczeństwo modeli (safety alignment); obecnie studentka studiów licencjackich na KAIST
 
 ## studenci studiów licencjackich
 
-- **Ty Brassington** — bezpieczeństwo modeli (safety alignment), emergent misalignment
-- **Adam Podoxin** — tłumaczenie maszynowe, wielojęzyczne NLP
-- **Gurneet Gill** — wielojęzyczne wydobywanie argumentów
-- **Maria Kapitanenko** — wielojęzyczne wydobywanie argumentów
-- **Jasleen Kaur** — wielojęzyczne wydobywanie argumentów
-- **Rodrigo Añasco** — wielojęzyczne wydobywanie argumentów
-- **Stella Maltcheva** — wielojęzyczne wydobywanie argumentów
-- **Ben Kiddie** — weryfikacja informacji, faktyczność
-- **Mitch Brown** — bezpieczeństwo modeli (safety alignment)
-- **Hala Obeid** — kreatywne generowanie wielojęzyczne
-- **Saemi Park** — kreatywne generowanie wielojęzyczne
-- **Emmy Fong** — kreatywne generowanie wielojęzyczne
-- **Aniyah Bohnen** — kreatywne generowanie wielojęzyczne
-- **Amandeep Manan** — kreatywne generowanie wielojęzyczne
-- **Sophia Don Tranho** — kreatywne generowanie wielojęzyczne
+- **Ty Brassington** (Summer 2026) — bezpieczeństwo modeli (safety alignment), emergent misalignment
+- **Adam Podoxin** (Summer 2026) — tłumaczenie maszynowe, wielojęzyczne NLP
+- **Gurneet Gill** (Summer 2026) — wielojęzyczne wydobywanie argumentów
+- **Maria Kapitanenko** (Summer 2026) — wielojęzyczne wydobywanie argumentów
+- **Jasleen Kaur** (Summer 2026) — wielojęzyczne wydobywanie argumentów
+- **Rodrigo Añasco** (Summer 2026) — wielojęzyczne wydobywanie argumentów
+- **Stella Maltcheva** (Summer 2026) — wielojęzyczne wydobywanie argumentów
+- **Ben Kiddie** (Summer 2026) — weryfikacja informacji, faktyczność
+- **Mitch Brown** (Summer 2026) — bezpieczeństwo modeli (safety alignment)
+- **Hala Obeid** (Summer 2026) — kreatywne generowanie wielojęzyczne
+- **Saemi Park** (Summer 2026) — kreatywne generowanie wielojęzyczne
+- **Emmy Fong** (Summer 2026) — kreatywne generowanie wielojęzyczne
+- **Aniyah Bohnen** (Summer 2026) — kreatywne generowanie wielojęzyczne
+- **Amandeep Manan** (Summer 2026) — kreatywne generowanie wielojęzyczne
+- **Sophia Don Tranho** (Summer 2026) — kreatywne generowanie wielojęzyczne
