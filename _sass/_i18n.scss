@@ -51,7 +51,10 @@
   color: var(--global-text-color-light, var(--global-text-color));
   text-decoration: none !important;
   border-radius: 999px;
-  transition: background-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease,
+    transform 0.15s ease;
 
   &:hover {
     color: var(--global-theme-color);

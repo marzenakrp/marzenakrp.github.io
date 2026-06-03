@@ -78,6 +78,7 @@ Pełniejszą listę publikacji znajdziesz na moim [profilu Google Scholar](https
       </div>
 
     </div>
+
   </div>
 
   <div class="cv-column">
@@ -145,6 +146,7 @@ Pełniejszą listę publikacji znajdziesz na moim [profilu Google Scholar](https
       </div>
 
     </div>
+
   </div>
 </div>
 

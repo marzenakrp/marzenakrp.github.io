@@ -41,7 +41,7 @@ media:
 footer:
   last_updated: "Last updated"
   back_to_top: Back to top
-  copyright_suffix: ""  # shown after the name in the copyright line; blank for English
+  copyright_suffix: "" # shown after the name in the copyright line; blank for English
 
 # Misc
 misc:
