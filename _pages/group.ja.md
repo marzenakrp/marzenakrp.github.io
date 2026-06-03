@@ -22,9 +22,13 @@ nav_order: 4
 - **Ty Brassington** — 安全性アライメント、創発的ミスアライメント
 - **Adam Podoxin** — 機械翻訳、多言語自然言語処理
 - **Gurneet Gill** — 多言語の論証マイニング
+- **Maria Kapitanenko** — 多言語の論証マイニング
+- **Jasleen Kaur** — 多言語の論証マイニング
+- **Rodrigo Añasco** — 多言語の論証マイニング
 - **Ben Kiddie** — 主張の検証、ファクトチェック
 - **Mitch Brown** — 安全性アライメント
 - **Hala Obeid** — 多言語のクリエイティブ生成
+- **Saemi Park** — 多言語のクリエイティブ生成
 - **Emmy Fong** — 多言語のクリエイティブ生成
 - **Aniyah Bohnen** — 多言語のクリエイティブ生成
 - **Amandeep Manan** — 多言語のクリエイティブ生成

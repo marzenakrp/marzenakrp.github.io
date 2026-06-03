@@ -22,9 +22,13 @@ Welcome to **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analy
 - **Ty Brassington** — safety alignment, emergent misalignment
 - **Adam Podoxin** — machine translation, multilingual NLP
 - **Gurneet Gill** — multilingual argument mining
+- **Maria Kapitanenko** — multilingual argument mining
+- **Jasleen Kaur** — multilingual argument mining
+- **Rodrigo Añasco** — multilingual argument mining
 - **Ben Kiddie** — claim verification, factuality
 - **Mitch Brown** — safety alignment
 - **Hala Obeid** — creative multilingual generation
+- **Saemi Park** — creative multilingual generation
 - **Emmy Fong** — creative multilingual generation
 - **Aniyah Bohnen** — creative multilingual generation
 - **Amandeep Manan** — creative multilingual generation
