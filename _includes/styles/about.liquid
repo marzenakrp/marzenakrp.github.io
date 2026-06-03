@@ -139,6 +139,14 @@
     border-bottom: none;
   }
 
+  .media-list li:nth-child(n + 6) {
+    display: none;
+  }
+
+  .media-list li:nth-child(5) {
+    border-bottom: none;
+  }
+
   .media-source {
     color: var(--global-theme-color);
     font-weight: 600;
@@ -172,8 +180,6 @@
   }
 
   .news-box {
-    max-height: min(720px, 70vh);
-    overflow-y: auto;
     border: 1px solid var(--global-divider-color);
     border-radius: 10px;
     padding: 5px 15px;
@@ -196,6 +202,14 @@
   }
 
   .news-list li:last-child {
+    border-bottom: none;
+  }
+
+  .news-list li:nth-child(n + 7) {
+    display: none;
+  }
+
+  .news-list li:nth-child(6) {
     border-bottom: none;
   }
 
