@@ -25,6 +25,7 @@ nav_order: 4
 - **Maria Kapitanenko** — 多言語の論証マイニング
 - **Jasleen Kaur** — 多言語の論証マイニング
 - **Rodrigo Añasco** — 多言語の論証マイニング
+- **Stella Maltcheva** — 多言語の論証マイニング
 - **Ben Kiddie** — 主張の検証、ファクトチェック
 - **Mitch Brown** — 安全性アライメント
 - **Hala Obeid** — 多言語のクリエイティブ生成

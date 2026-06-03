@@ -25,6 +25,7 @@ Witamy w **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analysi
 - **Maria Kapitanenko** — wielojęzyczne wydobywanie argumentów
 - **Jasleen Kaur** — wielojęzyczne wydobywanie argumentów
 - **Rodrigo Añasco** — wielojęzyczne wydobywanie argumentów
+- **Stella Maltcheva** — wielojęzyczne wydobywanie argumentów
 - **Ben Kiddie** — weryfikacja informacji, faktyczność
 - **Mitch Brown** — bezpieczeństwo modeli (safety alignment)
 - **Hala Obeid** — kreatywne generowanie wielojęzyczne

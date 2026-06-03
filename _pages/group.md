@@ -13,7 +13,7 @@ nav_order: 4
 
 Welcome to **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analysis) at Simon Fraser University. We work on developing and assessing multilingual and culturally rich AI systems that serve a wide variety of users.
 
-## PhD students
+## phd students
 
 - **[Weidong Zhang](https://zhangwd630.github.io/)** — starting Fall 2026. Last stop: Northeastern University.
 
@@ -25,6 +25,7 @@ Welcome to **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analy
 - **Maria Kapitanenko** — multilingual argument mining
 - **Jasleen Kaur** — multilingual argument mining
 - **Rodrigo Añasco** — multilingual argument mining
+- **Stella Maltcheva** — multilingual argument mining
 - **Ben Kiddie** — claim verification, factuality
 - **Mitch Brown** — safety alignment
 - **Hala Obeid** — creative multilingual generation
