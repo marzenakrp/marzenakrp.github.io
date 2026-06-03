@@ -19,7 +19,7 @@ nav_order: 4
 
 ## 訪問・共同研究学生
 
-- **Yves Ferstler** (Spring/Summer 2026) — 人間中心の機械翻訳；[Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html) の訪問学生、同研究室で Maite Taboada と共同研究、UQAM の博士課程1年生、指導教員：[Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
+- **Yves Ferstler** (Spring/Summer 2026) — 人間中心の機械翻訳；[Maite Taboada](https://www.sfu.ca/~mtaboada/) が主宰する [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html) の訪問学生、UQAM の博士課程1年生、指導教員：[Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
 - **Himani Paudayal** (Summer 2026) — 安全性アライメント；現在 KAIST の学部生
 
 ## 学部生
