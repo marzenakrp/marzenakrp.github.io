@@ -21,6 +21,7 @@ Witamy w **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analysi
 
 - **Ty Brassington** — bezpieczeństwo modeli (safety alignment), emergent misalignment
 - **Adam Podoxin** — tłumaczenie maszynowe, wielojęzyczne NLP
+- **Gurneet Gill** — wielojęzyczne wydobywanie argumentów
 - **Ben Kiddie** — weryfikacja informacji, faktyczność
 - **Mitch Brown** — bezpieczeństwo modeli (safety alignment)
 - **Hala Obeid** — kreatywne generowanie wielojęzyczne
