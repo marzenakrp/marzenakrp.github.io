@@ -32,7 +32,24 @@ latest_posts:
 
 ## prospective students
 
-Please fill in [this form](https://forms.gle/eauQXmbhTBECEv2d7) if you are interested in working with me. I am checking it at least once a month though I can't respond to everyone (sorry!). I have already given all offers for Fall 2026, but may consider hiring more students for later dates. SFU students are welcomed to sign up for research through CMPT 415/416. Important: If you are sending me an email please do NOT generate it. Generated emails will be delated without consideration.
+I plan to take ~1 PhD student every year in the Fall (provided there will be a suitable candidate). You should apply throught the standard SFU application process and there is no need to notify me by email about your application.
+
+If you would like to work with me please fill in [this form](https://forms.gle/eauQXmbhTBECEv2d7). I am checking it periodically and will get back to you if there is a good fit. Sadly, **I cannot respond to individual emails** from prospective students due to the volume I receive.
+
+**Important**: If you are sending me an email anyway please do NOT generate it. Generated emails will be delated without consideration.
+
+<details class="faq-inline">
+  <summary>SFU students are welcomed to sign up for research through CMPT 415/416.</summary>
+  <div class="faq-inline-body">
+    <p class="faq-q">What is CMPT 415/416?</p>
+    <p class="faq-a">
+      This is ultimately the same class, which allows you to do research project for credits for two semesters. You will be expected to meet with me once
+      a week and report your progress. We will be working as a team and while it may be a lot of work it is also a lot of fun.
+    </p>
+    <p class="faq-q">Can I help with research without taking CMPT 415/416?</p>
+    <p class="faq-a">Yes, you can if you are motivated and serious about it.</p>
+  </div>
+</details>
 
 ## about me
 

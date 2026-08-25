@@ -28,6 +28,73 @@
     }
   }
 
+  /* Inline disclosure: the CMPT 415/416 sentence unfolds its own FAQ */
+  .faq-inline {
+    margin-bottom: 1rem;
+  }
+
+  .faq-inline > summary {
+    display: inline;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .faq-inline > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-inline > summary::after {
+    content: '\25B8';
+    display: inline-block;
+    margin-left: 0.35em;
+    font-size: 0.85em;
+    color: var(--global-theme-color);
+    opacity: 0.55;
+    transition:
+      transform 0.2s ease,
+      opacity 0.15s ease;
+  }
+
+  .faq-inline[open] > summary::after {
+    transform: rotate(90deg);
+    opacity: 0.9;
+  }
+
+  .faq-inline > summary:hover {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 3px;
+  }
+
+  .faq-inline > summary:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+
+  .faq-inline-body {
+    margin-top: 12px;
+    padding-left: 16px;
+    border-left: 2px solid var(--global-divider-color);
+  }
+
+  .faq-q {
+    margin: 14px 0 4px 0;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--global-theme-color);
+  }
+
+  .faq-q:first-child {
+    margin-top: 0;
+  }
+
+  .faq-a {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
   .media-box {
     max-height: min(315px, 45vh);
     overflow-y: auto;

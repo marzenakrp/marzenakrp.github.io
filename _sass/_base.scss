@@ -919,6 +919,7 @@ footer.sticky-bottom {
   margin-right: 25px;
   margin-bottom: 25px;
   width: 200px;
+  max-width: 100%;
 }
 
 .publication-image img {
@@ -940,8 +941,8 @@ footer.sticky-bottom {
 
 .conference-tag {
   position: absolute;
-  bottom: 5px;
-  right: 5px;
+  bottom: 0;
+  right: 0;
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
   padding: 3px 8px;
@@ -949,6 +950,40 @@ footer.sticky-bottom {
   border-radius: 4px;
   font-weight: 500;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.publications ol.bibliography li .row,
+.publications ol.bibliography li .col-sm-3,
+.publications ol.bibliography li .col-sm-9 {
+  min-width: 0;
+}
+
+.publications ol.bibliography li .title,
+.publications ol.bibliography li .author {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 575.98px) {
+  .publications ol.bibliography li .row {
+    display: block;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .publications ol.bibliography li .col-sm-3,
+  .publications ol.bibliography li .col-sm-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .publication-image {
+    float: none;
+    width: min(220px, 100%);
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
 }
 
 // Publication links
