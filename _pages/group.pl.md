@@ -16,6 +16,7 @@ Witamy w **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analysi
 ## doktoranci
 
 - **[Weidong Zhang](https://zhangwd630.github.io/)** — rozpoczyna jesienią 2026. Wcześniej: Northeastern University.
+- **[Oluwabusayo Olufunke Awoyomi](https://scholar.google.com/citations?user=z0s0c3gAAAAJ&hl=en)** — rozpoczyna wiosną 2027. Wcześniej: Regeneron Pharmaceuticals.
 
 ## studenci wizytujący i współpracujący
 

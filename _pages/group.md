@@ -16,6 +16,7 @@ Welcome to **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analy
 ## phd students
 
 - **[Weidong Zhang](https://zhangwd630.github.io/)** — starting Fall 2026. Last stop: Northeastern University.
+- **[Oluwabusayo Olufunke Awoyomi](https://scholar.google.com/citations?user=z0s0c3gAAAAJ&hl=en)** — starting Spring 2027. Last stop: Regeneron Pharmaceuticals.
 
 ## visiting and collaborating students
 

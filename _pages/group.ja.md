@@ -16,6 +16,7 @@ nav_order: 4
 ## 博士課程学生
 
 - **[Weidong Zhang](https://zhangwd630.github.io/)** — 2026年秋入学予定。前所属：Northeastern University。
+- **[Oluwabusayo Olufunke Awoyomi](https://scholar.google.com/citations?user=z0s0c3gAAAAJ&hl=en)** — 2027年春入学予定。前所属：Regeneron Pharmaceuticals。
 
 ## 訪問・共同研究学生
 
