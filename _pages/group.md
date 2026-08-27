@@ -30,6 +30,8 @@ Welcome to **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analy
 
 ## undergraduate students
 
+I had the privilege of working with the following students, most of whom joined as part of CMPT 415/416:
+
 - **Ty Brassington** (Summer/Fall 2026) — safety alignment, emergent misalignment
 - **[Adam Podoxin](https://www.linkedin.com/in/adam-podoxin-919737132)** (Summer 2026) — machine translation, multilingual NLP
 - **[Gurneet Gill](https://www.linkedin.com/in/gurneet-gi11)** (Summer/Fall 2026) — multilingual argument mining
@@ -45,3 +47,16 @@ Welcome to **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analy
 - **[Aniyah Bohnen](https://aniyah.dev/)** (Summer/Fall 2026) — creative multilingual generation
 - **Amandeep Manan** (Summer/Fall 2026) — creative multilingual generation
 - **[Sophia Don Tranho](https://github.com/sophiadt)** (Summer/Fall 2026) — creative multilingual generation
+
+<details>
+  <summary>How can I contribute to MANTA's research?</summary>
+  <p>
+    You can join a research project either by signing up for CMPT 415/416 or volunteering for research. You can also try USRA (paid summer internship).
+    If you are interested you should first fill in <a href="https://forms.gle/eauQXmbhTBECEv2d7">this form</a>. For CMPT 415/416 you should also
+    reach out to me directly and ask for details. In short, you will have to submit a short project description and grading schema which will be sent
+    to me for approval. Since research is very different from a normal class it's possible that some weeks will be busier than others and that the
+    project runs longer than the semester. If the project stretches over two semesters you can usually take the class again to get extra credit
+    (that's why the class has two codes 415 and 416). Please note that research involves more work and engagement than your usual school project. You
+    will be expected to contribute every week and produce final or intermediate results at the end of the semester.
+  </p>
+</details>
