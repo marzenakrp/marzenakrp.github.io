@@ -11,7 +11,7 @@ nav_order: 5
 
 ## 2026年 秋学期
 
-- **CMPT 218/983** — [Applied AI: Foundation Models, Agents, AI Workflows](https://www.sfu.ca/outlines.html?2026/fall/cmpt/218/d100)（コンピューティングサイエンス／人工知能特論）
+- **CMPT 218/983** — [Applied AI for more](https://www.sfu.ca/outlines.html?2026/fall/cmpt/218/d100)（コンピューティングサイエンス／人工知能特論）
   _週3コマ・履修者数未定_
 
 ## 2026年 春学期
