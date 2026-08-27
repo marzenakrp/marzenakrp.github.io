@@ -24,7 +24,7 @@ Witamy w **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analysi
 
 ## studenci wizytujący i współpracujący
 
-- **Yves Ferstler** (Spring/Summer 2026) — tłumaczenie maszynowe zorientowane na człowieka; student wizytujący w [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html), prowadzonym przez [Maite Taboada](https://www.sfu.ca/~mtaboada/), doktorant pierwszego roku na UQAM pod opieką [Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
+- **[Yves Ferstler](https://www.yvesferstler.com/)** (Spring/Summer 2026) — tłumaczenie maszynowe zorientowane na człowieka; student wizytujący w [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html), prowadzonym przez [Maite Taboada](https://www.sfu.ca/~mtaboada/), doktorant pierwszego roku na UQAM pod opieką [Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
 - **[Himani Paudayal](https://www.linkedin.com/in/himani-paudayal-226b602a9)** (Summer/Fall 2026) — bezpieczeństwo modeli (safety alignment); obecnie studentka studiów licencjackich na KAIST
 - **[Oluwabusayo Olufunke Awoyomi](https://scholar.google.com/citations?user=z0s0c3gAAAAJ&hl=en)** (Fall 2026) — rozpoczyna doktorat wiosną 2027
 
@@ -34,11 +34,11 @@ Miałam przyjemność pracować z następującymi studentami i studentkami, z kt
 
 - **Ty Brassington** (Summer/Fall 2026) — bezpieczeństwo modeli (safety alignment), emergent misalignment
 - **[Adam Podoxin](https://www.linkedin.com/in/adam-podoxin-919737132)** (Summer 2026) — tłumaczenie maszynowe, wielojęzyczne NLP
-- **[Gurneet Gill](https://www.linkedin.com/in/gurneet-gi11)** (Summer/Fall 2026) — wielojęzyczne wydobywanie argumentów
-- **Maria Kapitanenko** (Summer/Fall 2026) — wielojęzyczne wydobywanie argumentów
-- **Jasleen Kaur** (Summer/Fall 2026) — wielojęzyczne wydobywanie argumentów
-- **Rodrigo Añasco** (Summer/Fall 2026) — wielojęzyczne wydobywanie argumentów
-- **[Stella Maltcheva](https://www.linkedin.com/in/stella-maltcheva)** (Summer/Fall 2026) — wielojęzyczne wydobywanie argumentów
+- **[Gurneet Gill](https://www.linkedin.com/in/gurneet-gi11)** (Summer/Fall 2026) — wielojęzyczna struktura argumentacji
+- **Maria Kapitanenko** (Summer/Fall 2026) — wielojęzyczna struktura argumentacji
+- **Jasleen Kaur** (Summer/Fall 2026) — wielojęzyczna struktura argumentacji
+- **Rodrigo Añasco** (Summer/Fall 2026) — wielojęzyczna struktura argumentacji
+- **[Stella Maltcheva](https://www.linkedin.com/in/stella-maltcheva)** (Summer/Fall 2026) — wielojęzyczna struktura argumentacji
 - **Ben Kiddie** (Summer/Fall 2026) — weryfikacja informacji, faktyczność
 - **Mitch Brown** (Summer/Fall 2026) — bezpieczeństwo modeli (safety alignment)
 - **Hala Obeid** (Summer/Fall 2026) — kreatywne generowanie wielojęzyczne

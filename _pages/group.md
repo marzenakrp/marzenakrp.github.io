@@ -24,7 +24,7 @@ Welcome to **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analy
 
 ## visiting and collaborating students
 
-- **Yves Ferstler** (Spring/Summer 2026) — human-centered machine translation; visiting student at the [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html), run by [Maite Taboada](https://www.sfu.ca/~mtaboada/), first-year PhD student at UQAM advised by [Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
+- **[Yves Ferstler](https://www.yvesferstler.com/)** (Spring/Summer 2026) — human-centered machine translation; visiting student at the [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html), run by [Maite Taboada](https://www.sfu.ca/~mtaboada/), first-year PhD student at UQAM advised by [Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
 - **[Himani Paudayal](https://www.linkedin.com/in/himani-paudayal-226b602a9)** (Summer/Fall 2026) — safety alignment; currently an undergraduate student at KAIST
 - **[Oluwabusayo Olufunke Awoyomi](https://scholar.google.com/citations?user=z0s0c3gAAAAJ&hl=en)** (Fall 2026) — incoming PhD student, starting Spring 2027
 
@@ -34,11 +34,11 @@ I had the privilege of working with the following students, most of whom joined 
 
 - **Ty Brassington** (Summer/Fall 2026) — safety alignment, emergent misalignment
 - **[Adam Podoxin](https://www.linkedin.com/in/adam-podoxin-919737132)** (Summer 2026) — machine translation, multilingual NLP
-- **[Gurneet Gill](https://www.linkedin.com/in/gurneet-gi11)** (Summer/Fall 2026) — multilingual argument mining
-- **Maria Kapitanenko** (Summer/Fall 2026) — multilingual argument mining
-- **Jasleen Kaur** (Summer/Fall 2026) — multilingual argument mining
-- **Rodrigo Añasco** (Summer/Fall 2026) — multilingual argument mining
-- **[Stella Maltcheva](https://www.linkedin.com/in/stella-maltcheva)** (Summer/Fall 2026) — multilingual argument mining
+- **[Gurneet Gill](https://www.linkedin.com/in/gurneet-gi11)** (Summer/Fall 2026) — multilingual argument structure
+- **Maria Kapitanenko** (Summer/Fall 2026) — multilingual argument structure
+- **Jasleen Kaur** (Summer/Fall 2026) — multilingual argument structure
+- **Rodrigo Añasco** (Summer/Fall 2026) — multilingual argument structure
+- **[Stella Maltcheva](https://www.linkedin.com/in/stella-maltcheva)** (Summer/Fall 2026) — multilingual argument structure
 - **Ben Kiddie** (Summer/Fall 2026) — claim verification, factuality
 - **Mitch Brown** (Summer/Fall 2026) — safety alignment
 - **Hala Obeid** (Summer/Fall 2026) — creative multilingual generation

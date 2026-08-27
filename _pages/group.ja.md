@@ -24,7 +24,7 @@ nav_order: 4
 
 ## 訪問・共同研究学生
 
-- **Yves Ferstler** (Spring/Summer 2026) — 人間中心の機械翻訳；[Maite Taboada](https://www.sfu.ca/~mtaboada/) が主宰する [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html) の訪問学生、UQAM の博士課程1年生、指導教員：[Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
+- **[Yves Ferstler](https://www.yvesferstler.com/)** (Spring/Summer 2026) — 人間中心の機械翻訳；[Maite Taboada](https://www.sfu.ca/~mtaboada/) が主宰する [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html) の訪問学生、UQAM の博士課程1年生、指導教員：[Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
 - **[Himani Paudayal](https://www.linkedin.com/in/himani-paudayal-226b602a9)** (Summer/Fall 2026) — 安全性アライメント；現在 KAIST の学部生
 - **[Oluwabusayo Olufunke Awoyomi](https://scholar.google.com/citations?user=z0s0c3gAAAAJ&hl=en)** (Fall 2026) — 2027年春から博士課程に入学予定
 
@@ -34,11 +34,11 @@ nav_order: 4
 
 - **Ty Brassington** (Summer/Fall 2026) — 安全性アライメント、創発的ミスアライメント
 - **[Adam Podoxin](https://www.linkedin.com/in/adam-podoxin-919737132)** (Summer 2026) — 機械翻訳、多言語自然言語処理
-- **[Gurneet Gill](https://www.linkedin.com/in/gurneet-gi11)** (Summer/Fall 2026) — 多言語の論証マイニング
-- **Maria Kapitanenko** (Summer/Fall 2026) — 多言語の論証マイニング
-- **Jasleen Kaur** (Summer/Fall 2026) — 多言語の論証マイニング
-- **Rodrigo Añasco** (Summer/Fall 2026) — 多言語の論証マイニング
-- **[Stella Maltcheva](https://www.linkedin.com/in/stella-maltcheva)** (Summer/Fall 2026) — 多言語の論証マイニング
+- **[Gurneet Gill](https://www.linkedin.com/in/gurneet-gi11)** (Summer/Fall 2026) — 多言語の論証構造
+- **Maria Kapitanenko** (Summer/Fall 2026) — 多言語の論証構造
+- **Jasleen Kaur** (Summer/Fall 2026) — 多言語の論証構造
+- **Rodrigo Añasco** (Summer/Fall 2026) — 多言語の論証構造
+- **[Stella Maltcheva](https://www.linkedin.com/in/stella-maltcheva)** (Summer/Fall 2026) — 多言語の論証構造
 - **Ben Kiddie** (Summer/Fall 2026) — 主張の検証、ファクトチェック
 - **Mitch Brown** (Summer/Fall 2026) — 安全性アライメント
 - **Hala Obeid** (Summer/Fall 2026) — 多言語のクリエイティブ生成
