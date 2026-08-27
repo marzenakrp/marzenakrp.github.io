@@ -21,22 +21,22 @@ nav_order: 4
 ## 訪問・共同研究学生
 
 - **Yves Ferstler** (Spring/Summer 2026) — 人間中心の機械翻訳；[Maite Taboada](https://www.sfu.ca/~mtaboada/) が主宰する [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html) の訪問学生、UQAM の博士課程1年生、指導教員：[Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
-- **Himani Paudayal** (Summer 2026) — 安全性アライメント；現在 KAIST の学部生
+- **Himani Paudayal** (Summer/Fall 2026) — 安全性アライメント；現在 KAIST の学部生
 
 ## 学部生
 
-- **Ty Brassington** (Summer 2026) — 安全性アライメント、創発的ミスアライメント
+- **Ty Brassington** (Summer/Fall 2026) — 安全性アライメント、創発的ミスアライメント
 - **Adam Podoxin** (Summer 2026) — 機械翻訳、多言語自然言語処理
-- **Gurneet Gill** (Summer 2026) — 多言語の論証マイニング
-- **Maria Kapitanenko** (Summer 2026) — 多言語の論証マイニング
-- **Jasleen Kaur** (Summer 2026) — 多言語の論証マイニング
-- **Rodrigo Añasco** (Summer 2026) — 多言語の論証マイニング
-- **Stella Maltcheva** (Summer 2026) — 多言語の論証マイニング
-- **Ben Kiddie** (Summer 2026) — 主張の検証、ファクトチェック
-- **Mitch Brown** (Summer 2026) — 安全性アライメント
-- **Hala Obeid** (Summer 2026) — 多言語のクリエイティブ生成
-- **Saemi Park** (Summer 2026) — 多言語のクリエイティブ生成
-- **Emmy Fong** (Summer 2026) — 多言語のクリエイティブ生成
-- **Aniyah Bohnen** (Summer 2026) — 多言語のクリエイティブ生成
-- **Amandeep Manan** (Summer 2026) — 多言語のクリエイティブ生成
-- **Sophia Don Tranho** (Summer 2026) — 多言語のクリエイティブ生成
+- **Gurneet Gill** (Summer/Fall 2026) — 多言語の論証マイニング
+- **Maria Kapitanenko** (Summer/Fall 2026) — 多言語の論証マイニング
+- **Jasleen Kaur** (Summer/Fall 2026) — 多言語の論証マイニング
+- **Rodrigo Añasco** (Summer/Fall 2026) — 多言語の論証マイニング
+- **Stella Maltcheva** (Summer/Fall 2026) — 多言語の論証マイニング
+- **Ben Kiddie** (Summer/Fall 2026) — 主張の検証、ファクトチェック
+- **Mitch Brown** (Summer/Fall 2026) — 安全性アライメント
+- **Hala Obeid** (Summer/Fall 2026) — 多言語のクリエイティブ生成
+- **Saemi Park** (Summer/Fall 2026) — 多言語のクリエイティブ生成
+- **Emmy Fong** (Summer/Fall 2026) — 多言語のクリエイティブ生成
+- **Aniyah Bohnen** (Summer/Fall 2026) — 多言語のクリエイティブ生成
+- **Amandeep Manan** (Summer/Fall 2026) — 多言語のクリエイティブ生成
+- **Sophia Don Tranho** (Summer/Fall 2026) — 多言語のクリエイティブ生成

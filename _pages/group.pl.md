@@ -21,22 +21,22 @@ Witamy w **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analysi
 ## studenci wizytujący i współpracujący
 
 - **Yves Ferstler** (Spring/Summer 2026) — tłumaczenie maszynowe zorientowane na człowieka; student wizytujący w [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html), prowadzonym przez [Maite Taboada](https://www.sfu.ca/~mtaboada/), doktorant pierwszego roku na UQAM pod opieką [Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
-- **Himani Paudayal** (Summer 2026) — bezpieczeństwo modeli (safety alignment); obecnie studentka studiów licencjackich na KAIST
+- **Himani Paudayal** (Summer/Fall 2026) — bezpieczeństwo modeli (safety alignment); obecnie studentka studiów licencjackich na KAIST
 
 ## studenci studiów licencjackich
 
-- **Ty Brassington** (Summer 2026) — bezpieczeństwo modeli (safety alignment), emergent misalignment
+- **Ty Brassington** (Summer/Fall 2026) — bezpieczeństwo modeli (safety alignment), emergent misalignment
 - **Adam Podoxin** (Summer 2026) — tłumaczenie maszynowe, wielojęzyczne NLP
-- **Gurneet Gill** (Summer 2026) — wielojęzyczne wydobywanie argumentów
-- **Maria Kapitanenko** (Summer 2026) — wielojęzyczne wydobywanie argumentów
-- **Jasleen Kaur** (Summer 2026) — wielojęzyczne wydobywanie argumentów
-- **Rodrigo Añasco** (Summer 2026) — wielojęzyczne wydobywanie argumentów
-- **Stella Maltcheva** (Summer 2026) — wielojęzyczne wydobywanie argumentów
-- **Ben Kiddie** (Summer 2026) — weryfikacja informacji, faktyczność
-- **Mitch Brown** (Summer 2026) — bezpieczeństwo modeli (safety alignment)
-- **Hala Obeid** (Summer 2026) — kreatywne generowanie wielojęzyczne
-- **Saemi Park** (Summer 2026) — kreatywne generowanie wielojęzyczne
-- **Emmy Fong** (Summer 2026) — kreatywne generowanie wielojęzyczne
-- **Aniyah Bohnen** (Summer 2026) — kreatywne generowanie wielojęzyczne
-- **Amandeep Manan** (Summer 2026) — kreatywne generowanie wielojęzyczne
-- **Sophia Don Tranho** (Summer 2026) — kreatywne generowanie wielojęzyczne
+- **Gurneet Gill** (Summer/Fall 2026) — wielojęzyczne wydobywanie argumentów
+- **Maria Kapitanenko** (Summer/Fall 2026) — wielojęzyczne wydobywanie argumentów
+- **Jasleen Kaur** (Summer/Fall 2026) — wielojęzyczne wydobywanie argumentów
+- **Rodrigo Añasco** (Summer/Fall 2026) — wielojęzyczne wydobywanie argumentów
+- **Stella Maltcheva** (Summer/Fall 2026) — wielojęzyczne wydobywanie argumentów
+- **Ben Kiddie** (Summer/Fall 2026) — weryfikacja informacji, faktyczność
+- **Mitch Brown** (Summer/Fall 2026) — bezpieczeństwo modeli (safety alignment)
+- **Hala Obeid** (Summer/Fall 2026) — kreatywne generowanie wielojęzyczne
+- **Saemi Park** (Summer/Fall 2026) — kreatywne generowanie wielojęzyczne
+- **Emmy Fong** (Summer/Fall 2026) — kreatywne generowanie wielojęzyczne
+- **Aniyah Bohnen** (Summer/Fall 2026) — kreatywne generowanie wielojęzyczne
+- **Amandeep Manan** (Summer/Fall 2026) — kreatywne generowanie wielojęzyczne
+- **Sophia Don Tranho** (Summer/Fall 2026) — kreatywne generowanie wielojęzyczne

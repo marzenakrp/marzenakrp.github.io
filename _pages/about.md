@@ -32,14 +32,36 @@ latest_posts:
 
 ## prospective students
 
-I plan to take ~1 PhD student every year in the Fall (provided there will be a suitable candidate). You should apply throught the standard SFU application process and there is no need to notify me by email about your application.
-
-If you would like to work with me please fill in [this form](https://forms.gle/eauQXmbhTBECEv2d7). I am checking it periodically and will get back to you if there is a good fit. Sadly, **I cannot respond to individual emails** from prospective students due to the volume I receive.
-
-**Important**: If you are sending me an email anyway please do NOT generate it. Generated emails will be delated without consideration.
+<details class="faq-inline">
+  <summary>I plan to take ~1 PhD student every year in the Fall.</summary>
+  <div class="faq-inline-body">
+    <p class="faq-a">
+      You should apply through the <a href="https://www.sfu.ca/fas/study/future-graduates/apply/computing-science.html">standard SFU application process</a> and there is no need to
+      notify me by email about your application. Please note that I <strong>cannot</strong> consult on your application due to the volume of emails I
+      receive.
+    </p>
+    <p class="faq-a">
+      SFU, like other Canadian universities, offers separate Master's and PhD programs. I may need to prioritize PhD applications and accept Master's students only
+      when funding permits. You can also <a href="https://www.sfu.ca/fas/study/future-graduates/programs/phd-computing.html">apply directly to a PhD program</a>.
+    </p>
+  </div>
+</details>
 
 <details class="faq-inline">
-  <summary>SFU students are welcomed to sign up for research through CMPT 415/416.</summary>
+  <summary>
+    If you would like to work with me on a project please fill in
+    <a href="https://forms.gle/eauQXmbhTBECEv2d7" onclick="event.stopPropagation()">this form</a>.
+  </summary>
+  <div class="faq-inline-body">
+    <p class="faq-a">
+      I am checking it periodically and will get back to you if there is a good fit. Sadly, I cannot respond to individual emails from prospective
+      students due to the volume I receive.
+    </p>
+  </div>
+</details>
+
+<details class="faq-inline">
+  <summary>SFU students are welcome to sign up for research through CMPT 415/416.</summary>
   <div class="faq-inline-body">
     <p class="faq-q">What is CMPT 415/416?</p>
     <p class="faq-a">
@@ -50,6 +72,8 @@ If you would like to work with me please fill in [this form](https://forms.gle/e
     <p class="faq-a">Yes, you can if you are motivated and serious about it.</p>
   </div>
 </details>
+
+**Important**: If you are sending me an email anyway please do NOT generate it. **Generated emails will be deleted without consideration.**
 
 ## about me
 

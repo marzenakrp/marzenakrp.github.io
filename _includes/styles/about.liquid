@@ -30,7 +30,16 @@
 
   /* Inline disclosure: the CMPT 415/416 sentence unfolds its own FAQ */
   .faq-inline {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
+  }
+
+  /* an open panel gets breathing room; the run as a whole keeps paragraph spacing after it */
+  .faq-inline[open] {
+    margin-bottom: 12px;
+  }
+
+  .faq-inline + :not(.faq-inline) {
+    margin-top: 1rem;
   }
 
   .faq-inline > summary {

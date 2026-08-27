@@ -21,22 +21,22 @@ Welcome to **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analy
 ## visiting and collaborating students
 
 - **Yves Ferstler** (Spring/Summer 2026) — human-centered machine translation; visiting student at the [Discourse Processing Lab](https://www.sfu.ca/discourse-lab.html), run by [Maite Taboada](https://www.sfu.ca/~mtaboada/), first-year PhD student at UQAM advised by [Marie-Jean Meurs](https://professeurs.uqam.ca/professeur/meurs.marie-jean/)
-- **Himani Paudayal** (Summer 2026) — safety alignment; currently an undergraduate student at KAIST
+- **Himani Paudayal** (Summer/Fall 2026) — safety alignment; currently an undergraduate student at KAIST
 
 ## undergraduate students
 
-- **Ty Brassington** (Summer 2026) — safety alignment, emergent misalignment
+- **Ty Brassington** (Summer/Fall 2026) — safety alignment, emergent misalignment
 - **Adam Podoxin** (Summer 2026) — machine translation, multilingual NLP
-- **Gurneet Gill** (Summer 2026) — multilingual argument mining
-- **Maria Kapitanenko** (Summer 2026) — multilingual argument mining
-- **Jasleen Kaur** (Summer 2026) — multilingual argument mining
-- **Rodrigo Añasco** (Summer 2026) — multilingual argument mining
-- **Stella Maltcheva** (Summer 2026) — multilingual argument mining
-- **Ben Kiddie** (Summer 2026) — claim verification, factuality
-- **Mitch Brown** (Summer 2026) — safety alignment
-- **Hala Obeid** (Summer 2026) — creative multilingual generation
-- **Saemi Park** (Summer 2026) — creative multilingual generation
-- **Emmy Fong** (Summer 2026) — creative multilingual generation
-- **Aniyah Bohnen** (Summer 2026) — creative multilingual generation
-- **Amandeep Manan** (Summer 2026) — creative multilingual generation
-- **Sophia Don Tranho** (Summer 2026) — creative multilingual generation
+- **Gurneet Gill** (Summer/Fall 2026) — multilingual argument mining
+- **Maria Kapitanenko** (Summer/Fall 2026) — multilingual argument mining
+- **Jasleen Kaur** (Summer/Fall 2026) — multilingual argument mining
+- **Rodrigo Añasco** (Summer/Fall 2026) — multilingual argument mining
+- **Stella Maltcheva** (Summer/Fall 2026) — multilingual argument mining
+- **Ben Kiddie** (Summer/Fall 2026) — claim verification, factuality
+- **Mitch Brown** (Summer/Fall 2026) — safety alignment
+- **Hala Obeid** (Summer/Fall 2026) — creative multilingual generation
+- **Saemi Park** (Summer/Fall 2026) — creative multilingual generation
+- **Emmy Fong** (Summer/Fall 2026) — creative multilingual generation
+- **Aniyah Bohnen** (Summer/Fall 2026) — creative multilingual generation
+- **Amandeep Manan** (Summer/Fall 2026) — creative multilingual generation
+- **Sophia Don Tranho** (Summer/Fall 2026) — creative multilingual generation
