@@ -4,7 +4,7 @@ title: projekty
 permalink: /pl/projects/
 lang: pl
 lang_ref: projects
-description: Wybrane projekty badawcze, nad którymi pracuję
+heading: Wybrane wcześniejsze projekty
 nav: true
 nav_order: 3
 horizontal: true

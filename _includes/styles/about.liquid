@@ -136,7 +136,7 @@
     flex: 1;
     min-width: 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: baseline;
     gap: 0.45rem 0.65rem;
   }
@@ -183,6 +183,12 @@
     border: 1.5px solid #93c5fd;
   }
 
+  .media-pill-quotes {
+    background: #ede9fe;
+    color: #5b21b6;
+    border: 1.5px solid #c4b5fd;
+  }
+
   html[data-theme='dark'] .media-pill-mentions {
     background: #334155;
     color: #e2e8f0;
@@ -193,6 +199,12 @@
     background: #1e3a5f;
     border-color: #3b82f6;
     color: #93c5fd;
+  }
+
+  html[data-theme='dark'] .media-pill-quotes {
+    background: #3b2a63;
+    border-color: #8b5cf6;
+    color: #c4b5fd;
   }
 
   html[data-theme='dark'] a.media-pill:hover {
@@ -229,6 +241,10 @@
     text-decoration: none;
     color: var(--global-text-color);
     font-weight: 500;
+    min-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
 
   .media-list a.media-article-link:hover {
@@ -239,6 +255,7 @@
   @media (max-width: 576px) {
     .media-list li {
       flex-direction: column;
+      align-items: stretch;
     }
     .media-source {
       margin-bottom: 5px;
@@ -246,6 +263,9 @@
     .media-item-body {
       flex-direction: column;
       align-items: flex-start;
+    }
+    .media-list a.media-article-link {
+      max-width: 100%;
     }
   }
 

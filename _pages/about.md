@@ -32,48 +32,29 @@ latest_posts:
 
 ## prospective students
 
-<details class="faq-inline">
-  <summary>I plan to take ~1 PhD student every year in the Fall.</summary>
-  <div class="faq-inline-body">
-    <p class="faq-a">
-      You should apply through the <a href="https://www.sfu.ca/fas/study/future-graduates/apply/computing-science.html">standard SFU application process</a> and there is no need to
-      notify me by email about your application. Please note that I <strong>cannot</strong> consult on your application due to the volume of emails I
-      receive.
-    </p>
-    <p class="faq-a">
-      SFU, like other Canadian universities, offers separate Master's and PhD programs. I may need to prioritize PhD applications and accept Master's students only
-      when funding permits. You can also <a href="https://www.sfu.ca/fas/study/future-graduates/programs/phd-computing.html">apply directly to a PhD program</a>.
-    </p>
-  </div>
-</details>
+I plan to take ~1 PhD student every year in the Fall. Please apply through the [standard SFU process](https://www.sfu.ca/fas/study/future-graduates/apply/computing-science.html). There is no need to email me. If you would like to work with me on a project, fill in [this form](https://forms.gle/eauQXmbhTBECEv2d7). SFU students can also join through CMPT 415/416. **Please note that any AI-generated email will be deleted without consideration.**
 
 <details class="faq-inline">
-  <summary>
-    If you would like to work with me on a project please fill in
-    <a href="https://forms.gle/eauQXmbhTBECEv2d7" onclick="event.stopPropagation()">this form</a>.
-  </summary>
+  <summary>More details</summary>
   <div class="faq-inline-body">
+    <p class="faq-q">Can you consult on my application or answer my email?</p>
     <p class="faq-a">
-      I am checking it periodically and will get back to you if there is a good fit. Sadly, I cannot respond to individual emails from prospective
-      students due to the volume I receive.
+      Sadly, no. Due to the volume of emails I receive, I cannot consult on applications or respond to individual emails from prospective students.
+      I check the form periodically and will get back to you if there is a good fit.
     </p>
-  </div>
-</details>
-
-<details class="faq-inline">
-  <summary>SFU students are welcome to sign up for research through CMPT 415/416.</summary>
-  <div class="faq-inline-body">
+    <p class="faq-q">Master's or PhD?</p>
+    <p class="faq-a">
+      SFU, like other Canadian universities, offers separate Master's and PhD programs. I may need to prioritize PhD applications and accept Master's
+      students only when funding permits. You can also <a href="https://www.sfu.ca/fas/study/future-graduates/programs/phd-computing.html">apply directly to a PhD program</a>.
+    </p>
     <p class="faq-q">What is CMPT 415/416?</p>
     <p class="faq-a">
-      This is ultimately the same class, which allows you to do research project for credits for two semesters. You will be expected to meet with me once
-      a week and report your progress. We will be working as a team and while it may be a lot of work it is also a lot of fun.
+      It is a research course that lets you do a research project for credit over two semesters. You will meet with me weekly and report your progress.
+      We work as a team, and while it is a lot of work, it is also a lot of fun. You can also help with research without taking the course if you are
+      motivated and serious about it.
     </p>
-    <p class="faq-q">Can I help with research without taking CMPT 415/416?</p>
-    <p class="faq-a">Yes, you can if you are motivated and serious about it.</p>
   </div>
 </details>
-
-**Important**: If you are sending me an email anyway please do NOT generate it. **Generated emails will be deleted without consideration.**
 
 ## about me
 
@@ -83,7 +64,12 @@ I hold a Ph.D. from the [Department of Language and Information Sciences](https:
 
 ## research
 
-I am interested in **how well natural language processing (NLP) systems handle long-form content**, both as input and output. My work includes areas like machine translation of creative texts, story generation, summarizing long texts, verifying claims about book-length content, and multilingual long-form question answering.
+My research focuses on natural language processing (NLP) and language models (LMs). Specifically, I am interested in:
+
+- **Detection of AI-generated and AI-translated text**: what characterizes text that is generated or translated by AI, and how well can we distinguish it from human-authored text?
+- **Multilingual NLP**: how can we build systems that serve people from diverse linguistic and cultural backgrounds?
+- **Machine translation of creative texts**: how can we help more authors be heard without misrepresenting their voice?
+- **Long-form text processing**: how well can models process long-form input, and how can we evaluate long-form output?
 
 ## media
 

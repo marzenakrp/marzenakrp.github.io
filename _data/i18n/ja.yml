@@ -31,6 +31,8 @@ media:
   mentions_desc: 研究成果に言及
   discusses: 紹介
   discusses_desc: 研究内容を紹介
+  quotes: 引用
+  quotes_desc: 専門家としてコメント
 
 footer:
   last_updated: "最終更新"

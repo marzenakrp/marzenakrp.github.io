@@ -225,6 +225,7 @@ exclude:
   - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
+  - PRESS.md
   - readme_preview/
   - vendor
 

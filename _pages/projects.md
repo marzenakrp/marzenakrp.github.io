@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 lang: en
 lang_ref: projects
-description: Some research projects I am working on
+heading: Some of the past projects
 nav: true
 nav_order: 3
 horizontal: true

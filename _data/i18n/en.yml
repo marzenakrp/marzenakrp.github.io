@@ -36,6 +36,8 @@ media:
   mentions_desc: refers to our findings
   discusses: discusses
   discusses_desc: features our work
+  quotes: quotes
+  quotes_desc: quoted
 
 # Footer
 footer:

@@ -31,6 +31,8 @@ media:
   mentions_desc: nawiązuje do naszych wyników
   discusses: omawia
   discusses_desc: opisuje naszą pracę
+  quotes: cytat
+  quotes_desc: cytowana
 
 footer:
   last_updated: "Ostatnia aktualizacja"

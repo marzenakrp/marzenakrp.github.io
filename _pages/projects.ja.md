@@ -4,7 +4,7 @@ title: プロジェクト
 permalink: /ja/projects/
 lang: ja
 lang_ref: projects
-description: 取り組んでいる主な研究プロジェクト
+heading: これまでの主なプロジェクト
 nav: true
 nav_order: 3
 horizontal: true
