@@ -11,12 +11,20 @@ nav_order: 6
 <div class="service-page">
 
 <div class="service-year">
+  <h2>2027</h2>
+  <div class="service-items">
+    <div class="service-row"><span class="service-venue">NAACL</span><span class="service-role role-organizer">Volunteer Chair</span><span class="service-role role-ethics">Recenzent ds. etyki</span></div>
+  </div>
+</div>
+
+<div class="service-year">
   <h2>2026</h2>
   <div class="service-items">
     <div class="service-row"><span class="service-venue">EMNLP</span><span class="service-role role-sac">Senior Area Chair</span><span class="service-award">Outstanding SAC</span></div>
     <div class="service-row"><span class="service-venue">COLM</span><span class="service-role role-ac">Area Chair</span></div>
-    <div class="service-row"><span class="service-venue">ACL</span><span class="service-role role-reviewer">Recenzent</span></div>
+    <div class="service-row"><span class="service-venue">ACL</span><span class="service-role role-organizer">Session Chair</span><span class="service-role role-reviewer">Recenzent</span></div>
     <div class="service-row"><span class="service-venue">ARR <small>(marzec)</small></span><span class="service-role role-ac">Area Chair</span></div>
+    <div class="service-row"><span class="service-venue">WMT</span><span class="service-role role-reviewer">Recenzent</span></div>
     <div class="service-row"><span class="service-venue">GEM Workshop</span><span class="service-role role-reviewer">Recenzent</span></div>
   </div>
 </div>
