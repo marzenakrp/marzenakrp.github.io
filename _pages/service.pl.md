@@ -13,7 +13,7 @@ nav_order: 6
 <div class="service-year">
   <h2>2027</h2>
   <div class="service-items">
-    <div class="service-row"><span class="service-venue">NAACL</span><span class="service-role role-organizer">Volunteer Chair</span><span class="service-role role-ethics">Recenzent ds. etyki</span></div>
+    <div class="service-row"><span class="service-venue">NAACL</span><span class="service-role role-organizer">Volunteer Chair</span></div>
   </div>
 </div>
 

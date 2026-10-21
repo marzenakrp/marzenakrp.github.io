@@ -35,6 +35,7 @@ media:
   quotes_desc: 専門家としてコメント
 
 footer:
+  made_with: "Claudeの協力を得て作成しました。"
   last_updated: "最終更新"
   back_to_top: トップへ戻る
   copyright_suffix: ""

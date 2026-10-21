@@ -35,6 +35,7 @@ media:
   quotes_desc: cytowana
 
 footer:
+  made_with: "Strona powstała z pomocą Claude'a."
   last_updated: "Ostatnia aktualizacja"
   back_to_top: Na górę
   copyright_suffix: ""

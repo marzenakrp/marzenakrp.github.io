@@ -12,6 +12,7 @@
   {% if site.impressum_path %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
   {% endif %}
+  {{ _footer_i18n.footer.made_with | default: site.data.i18n.en.footer.made_with }}
   {% if site.last_updated %}
     {{ _footer_i18n.footer.last_updated }}: {{ 'now' | date: '%B %d, %Y' }}.
   {% endif %}

@@ -41,6 +41,7 @@ media:
 
 # Footer
 footer:
+  made_with: "Made with the help of Claude."
   last_updated: "Last updated"
   back_to_top: Back to top
   copyright_suffix: "" # shown after the name in the copyright line; blank for English

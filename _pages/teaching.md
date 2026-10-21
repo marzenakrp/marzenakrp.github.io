@@ -12,7 +12,7 @@ nav_order: 5
 ## Fall 2026
 
 - **CMPT 218/983** — [Applied AI for more](https://www.sfu.ca/outlines.html?2026/fall/cmpt/218/d100) (Special Topics in Computing Science / Artificial Intelligence)  
-  _3 contact hours per week · enrollment TBD_
+  _3 contact hours per week · 31 students enrolled_
 
 ## Spring 2026
 
