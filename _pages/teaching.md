@@ -9,6 +9,11 @@ nav: true
 nav_order: 5
 ---
 
+## Spring 2027
+
+- **CMPT 419/983** — [Advanced Methods in Natural Language Processing](https://www.sfu.ca/outlines.html?2027/spring/cmpt/419/e100) (Special Topics in Artificial Intelligence)  
+  _3 contact hours per week · enrollment TBD_
+
 ## Fall 2026
 
 - **CMPT 218/983** — [Applied AI for more](https://www.sfu.ca/outlines.html?2026/fall/cmpt/218/d100) (Special Topics in Computing Science / Artificial Intelligence)  

@@ -4,7 +4,7 @@ permalink: /ja/publications/
 title: 論文
 lang: ja
 lang_ref: publications
-description: "論文数：27 件"
+description: "論文数：29 件"
 nav: true
 nav_order: 2
 ---

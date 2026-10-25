@@ -25,14 +25,16 @@ languages:
     native_name: EN
     path_prefix: ""
     html_lang: en
-  - code: pl
-    native_name: PL
-    path_prefix: "/pl"
-    html_lang: pl
-  - code: ja
-    native_name: 日本語
-    path_prefix: "/ja"
-    html_lang: ja
+  # Polish and Japanese are hidden for now (English only). To bring them back, uncomment these
+  # two entries and remove the two `_pages/*.pl.md` / `_pages/*.ja.md` lines under `exclude:`.
+  # - code: pl
+  #   native_name: PL
+  #   path_prefix: "/pl"
+  #   html_lang: pl
+  # - code: ja
+  #   native_name: 日本語
+  #   path_prefix: "/ja"
+  #   html_lang: ja
 icon: 👧 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://marzenakrp.github.io # the base hostname & protocol for your site
@@ -226,6 +228,8 @@ exclude:
   - purgecss.config.js
   - README.md
   - PRESS.md
+  - _pages/*.pl.md # Polish pages hidden for now
+  - _pages/*.ja.md # Japanese pages hidden for now
   - readme_preview/
   - vendor
 

@@ -4,7 +4,7 @@ permalink: /pl/publications/
 title: publikacje
 lang: pl
 lang_ref: publications
-description: "łącznie: 27"
+description: "łącznie: 29"
 nav: true
 nav_order: 2
 ---
