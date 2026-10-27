@@ -32,14 +32,16 @@ Welcome to **MANTA Lab** (Multilingual AI for Narratives, Translation, and Analy
 
 I had the privilege of working with the following students, most of whom joined as part of CMPT 415/416:
 
-- **Ty Brassington** (Summer/Fall 2026) — safety alignment, emergent misalignment
+- **Ty Brassington** (Summer/Fall 2026) — safety alignment, emergent misalignment, LLM detection
 - **[Adam Podoxin](https://www.linkedin.com/in/adam-podoxin-919737132)** (Summer 2026) — machine translation, multilingual NLP
 - **[Gurneet Gill](https://www.linkedin.com/in/gurneet-gi11)** (Summer/Fall 2026) — multilingual argument structure
 - **Maria Kapitanenko** (Summer/Fall 2026) — multilingual argument structure
 - **Jasleen Kaur** (Summer/Fall 2026) — multilingual argument structure
 - **Rodrigo Añasco** (Summer/Fall 2026) — multilingual argument structure
 - **[Stella Maltcheva](https://www.linkedin.com/in/stella-maltcheva)** (Summer/Fall 2026) — multilingual argument structure
-- **Ben Kiddie** (Summer/Fall 2026) — claim verification, factuality
+- **Khoa Ha Minh Duong** (Fall 2026) — multilingual argument structure, legal retrieval
+- **Ben Kiddie** (Summer/Fall 2026) — claim verification, miscitation detection
+- **[Neil Mathias](https://www.linkedin.com/in/neil-mathias-6000851a8)** (Fall 2026) — miscitation detection
 - **Mitch Brown** (Summer/Fall 2026) — safety alignment
 - **Hala Obeid** (Summer/Fall 2026) — creative multilingual generation
 - **Saemi Park** (Summer/Fall 2026) — creative multilingual generation
@@ -47,6 +49,7 @@ I had the privilege of working with the following students, most of whom joined 
 - **[Aniyah Bohnen](https://aniyah.dev/)** (Summer/Fall 2026) — creative multilingual generation
 - **Amandeep Manan** (Summer/Fall 2026) — creative multilingual generation
 - **[Sophia Don Tranho](https://github.com/sophiadt)** (Summer/Fall 2026) — creative multilingual generation
+- **Ali Rezaeemianroodi** (Fall 2026) — legal case visualization, legal chatbot
 
 <details>
   <summary>How can I contribute to MANTA's research?</summary>
