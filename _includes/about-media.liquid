@@ -1,7 +1,6 @@
 {%- comment -%}
   Media coverage list used on every language version of the About page.
-  Article titles stay in their original English (they are external links to
-  English-language outlets). Legend pill labels are pulled from
+  Article titles stay in their original language. Legend pill labels are pulled from
   _data/i18n/<lang>.yml so the surrounding chrome localizes correctly.
 {%- endcomment -%}
 {%- assign _lang = page.lang | default: site.lang -%}
@@ -50,6 +49,36 @@
       </div>
     </li>
     <li>
+      <span class="media-source">EL HUFFPOST ESPAÑA</span>
+      <div class="media-item-body">
+        <a
+          class="media-article-link"
+          href="https://www.huffingtonpost.es/tecnologia/asi-funciona-pangram-detector-textos-hechos-ia-tumbado-novela-francia-creador-asegura-equivoca-f202610.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Así funciona Pangram, el detector de textos hechos con IA"
+          >Así funciona Pangram, el detector de textos hechos con IA</a
+        ><a class="media-pill media-pill-quotes" href="https://arxiv.org/abs/2501.15654" target="_blank" rel="noopener noreferrer">
+          {{- _i18n.media.quotes -}}
+        </a>
+      </div>
+    </li>
+    <li>
+      <span class="media-source">CLUBIC</span>
+      <div class="media-item-body">
+        <a
+          class="media-article-link"
+          href="https://www.clubic.com/actualite-631387-ia-litterature-apres-l-affaire-orelien-les-auteurs-classiques-sont-soumis-au-detecteur-et-c-est-surprenant.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="IA &amp; littérature : après l’affaire Orélien, les auteurs classiques sont soumis au détecteur, et c’est surprenant"
+          >IA &amp; littérature : après l’affaire Orélien, les auteurs classiques sont soumis au détecteur, et c’est surprenant</a
+        ><a class="media-pill media-pill-quotes" href="https://arxiv.org/abs/2501.15654" target="_blank" rel="noopener noreferrer">
+          {{- _i18n.media.quotes -}}
+        </a>
+      </div>
+    </li>
+    <li>
       <span class="media-source">EL PAÍS</span>
       <div class="media-item-body">
         <a
@@ -59,6 +88,21 @@
           rel="noopener noreferrer"
           title="Can one AI unmask another? Pangram, an almost infallible tool for detecting machine-created texts and novels"
           >Can one AI unmask another? Pangram, an almost infallible tool for detecting machine-created texts and novels</a
+        ><a class="media-pill media-pill-quotes" href="https://arxiv.org/abs/2501.15654" target="_blank" rel="noopener noreferrer">
+          {{- _i18n.media.quotes -}}
+        </a>
+      </div>
+    </li>
+    <li>
+      <span class="media-source">FRANCE 24</span>
+      <div class="media-item-body">
+        <a
+          class="media-article-link"
+          href="https://www.france24.com/fr/culture/20260923-livre-%C3%A9crit-ia-soup%C3%A7ons-port%C3%A9s-%C3%A9crivain-th%C3%A9lyson-or%C3%A9lien-roman"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Un livre écrit avec l’IA ? Ce que l’on sait des soupçons portés contre l’écrivain Thélyson Orélien"
+          >Un livre écrit avec l’IA ? Ce que l’on sait des soupçons portés contre l’écrivain Thélyson Orélien</a
         ><a class="media-pill media-pill-quotes" href="https://arxiv.org/abs/2501.15654" target="_blank" rel="noopener noreferrer">
           {{- _i18n.media.quotes -}}
         </a>
