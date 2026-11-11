@@ -35,9 +35,9 @@ I had the privilege of working with the following students, most of whom joined 
 - **Ty Brassington** (Summer/Fall 2026) — safety alignment, emergent misalignment, LLM detection
 - **[Adam Podoxin](https://www.linkedin.com/in/adam-podoxin-919737132)** (Summer 2026) — machine translation, multilingual NLP
 - **[Gurneet Gill](https://www.linkedin.com/in/gurneet-gi11)** (Summer/Fall 2026) — multilingual argument structure
-- **Maria Kapitanenko** (Summer/Fall 2026) — multilingual argument structure
+- **Maria Kapitanenko** (Summer 2026) — multilingual argument structure
 - **Jasleen Kaur** (Summer/Fall 2026) — multilingual argument structure
-- **Rodrigo Añasco** (Summer/Fall 2026) — multilingual argument structure
+- **Rodrigo Añasco** (Summer 2026) — multilingual argument structure
 - **[Stella Maltcheva](https://www.linkedin.com/in/stella-maltcheva)** (Summer/Fall 2026) — multilingual argument structure
 - **Khoa Ha Minh Duong** (Fall 2026) — multilingual argument structure, legal retrieval
 - **Ben Kiddie** (Summer/Fall 2026) — claim verification, miscitation detection

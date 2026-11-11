@@ -32,7 +32,9 @@ latest_posts:
 
 ## prospective students
 
-I plan to take ~1 PhD student every year in the Fall. Please apply through the [standard SFU process](https://www.sfu.ca/fas/study/future-graduates/apply/computing-science.html). There is no need to email me. If you would like to work with me on a project, fill in [this form](https://forms.gle/eauQXmbhTBECEv2d7). SFU students can also join through CMPT 415/416. **Please note that any AI-generated email will be deleted without consideration.**
+I plan to take ~1 PhD student this cycle (Fall 2027). Please apply through the [standard SFU process](https://www.sfu.ca/fas/study/future-graduates/apply/computing-science.html). There is no need to email me. I will **not** be taking any master students.
+
+If you would like to work with me on a project, fill in [this form](https://forms.gle/eauQXmbhTBECEv2d7). SFU students can also join through CMPT 415/416. Please note that research takes significant time commitment each week. **Any AI-generated email will be deleted without consideration.**
 
 <details class="faq-inline">
   <summary>More details</summary>
